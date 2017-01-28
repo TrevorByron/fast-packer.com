@@ -1,0 +1,132 @@
+
+
+
+.main {
+  .filter{
+    text-transform: uppercase;
+    font-family: 'lato';
+    ul {
+      list-style: none;
+      padding: 0px;
+      #all {
+        background-color:rgba(105, 177, 173, 1);
+      }
+
+    li{
+      color: white;
+      display: inline-block;
+      margin: 5px 15px;
+      background-color: #444;
+      padding: 3px 10px;
+      border-radius: 5px;
+      transition: .5s;
+    }
+      }
+      li:hover {
+        background-color:rgba(105, 177, 173, 1);
+
+      }
+  }
+}
+
+
+
+
+#route-selector {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+#filters {
+    text-align: center;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1em;
+    a {
+      color: white;
+      display: inline-block;
+      margin: 5px 25px;
+      background-color: #444;
+      padding: 3px 10px;
+      border-radius: 5px;
+      transition: .5s;
+    }
+    a:hover {
+        background-color:rgba(105, 177, 173, 1);
+    }
+    a:focus {
+        background-color:rgba(105, 177, 173, 1);
+        text-decoration: none;
+    }
+}
+
+#route-content {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.route-item {
+    margin: 10px;
+    width: 300px;
+    text-align: left;
+    overflow: hidden;
+    h3 {
+      height: 300px;
+      margin: 0;
+      padding: 125px 10%;
+      color: rgba(255, 255, 255, 0);
+      font-size: 20px;
+      font-weight: 400;
+      transition:  .5s;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .route-display:hover h3 {
+      background-color: rgba(033, 033, 033, .5);
+      color: white;
+      text-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+      }
+      p {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: 'Lato';
+      }
+      a {
+        color: #333;
+      }
+
+
+}
+#route-mckinney{
+  background: url(../images/Square/Austin-sm.jpg);
+  background-size: contain;
+}
+
+#route-NM-4-days{
+  background: url(../images/Square/feet.jpg);
+  background-size: contain;
+}
+
+#route-sa-hotsprings{
+  background: url(../images/hotsprings.jpg);
+  background-size: contain;
+}
+
+#four-bush{
+  background: url(../images/Square/Square_0009_hamocks.jpg);
+  background-size: contain;
+}
+#slo-sb{
+  background: url(../images/Square/Square_0008_los-padres.jpg);
+  background-size: contain;
+}
+#pedernales{
+  background: url(../images/pedernales.png);
+  background-size: contain;
+}

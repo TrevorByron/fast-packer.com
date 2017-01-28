@@ -1,0 +1,482 @@
+@import "../partials/colors";
+
+
+
+.slow{
+  position: relative;
+  z-index: -1;
+}
+
+
+.hero{
+background-color: #091c0e;
+  text-align: center;
+
+
+
+
+
+
+  #welcome {
+    background-size: cover;
+    background: url(../images/Unsplash/trail-runners.jpg) fixed  no-repeat;
+  // padding:15% 10% 10% 10%;
+  height: 100vh;
+
+
+  }
+  #featured-route {
+    background: url(../images/Unsplash/los-padres.jpg) fixed  no-repeat;
+// padding:15% 10% 10% 10%;
+  height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+  }
+  #featured-review {
+    background: url(../images/gear/pad-close.jpg) fixed no-repeat;
+    // padding:15% 10% 10% 10%;
+      height: 100vh;
+    background-size: cover;
+
+
+  }
+  #featured-story{
+    background: url(../images/NM/feet3.jpg) fixed no-repeat;
+  // padding:15% 10% 10% 10%;
+    height: 100vh;
+    background-size: cover;
+
+
+  }
+
+  .caption {
+    padding: 20px 30px;
+    border: 5px solid white;
+    text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
+    height: auto;
+    color: white;
+    background-color: rgba(86, 86, 86, .4);
+    display: inline-block;
+    max-width: 650px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin: 25vh 5% 20px 5%;
+
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 40px;
+      letter-spacing: 10px;
+    }
+    h3 {
+      font-size: 15px;
+    }
+}
+
+  li {
+    list-style: none;
+    margin: 0 auto;
+  }
+  .hero-btn {
+
+    color: white;
+    border-radius: 40px;
+    background-color: rgba(105, 177, 173, .8);
+    width: 220px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+    margin: 0 auto;
+    transition: .5s;
+    margin-top: 30px;
+
+
+    h2{
+    display: inline-block;
+    border-radius: 30px;
+    margin: 0;
+    letter-spacing: 5px;
+    font-size: 15px;
+
+  }
+  }
+  .hero-btn:hover {
+    background-color: rgba(255, 255, 255, .8);
+    color: $turquoise;
+  }
+}
+
+
+
+
+// Routes
+
+.route-hero {
+background: url(../images/Unsplash/wooded-trail.jpg) fixed  no-repeat;
+background-position: center;
+    background-size: cover;
+    height: 70vh;
+.caption {
+  padding: 20px 30px;
+  text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
+  color: white;
+  display: inline-block;
+  max-width: 650px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+margin: 120px 10% 20px 10%;
+
+  h2 {
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+}
+
+
+
+// Gear
+.gear-hero {
+
+    background: url(../images/gear/press-everything.jpg) fixed  no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+.caption {
+  padding: 20px 30px;
+  text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
+  color: white;
+  display: inline-block;
+  max-width: 650px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+margin: 120px 10% 20px 10%;
+
+  h2 {
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+}
+// gear-review1
+.nemo-hero {
+
+    background: url(../images/gear/pad-close.jpg) fixed  no-repeat;
+    background-size: cover;
+    height: 70vh;
+.caption {
+  padding: 20px 30px;
+  text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
+  color: white;
+  display: inline-block;
+  max-width: 650px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+margin: 120px 10% 20px 10%;
+
+  h2 {
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+}
+// gear-review2
+.ospray-hero {
+
+    background: url(../images/gear/pack-front.jpg) fixed  no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 70vh;
+.caption {
+  padding: 20px 30px;
+  text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
+  color: white;
+  display: inline-block;
+  max-width: 650px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin: 120px 10% 20px 10%;
+
+  h2 {
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+}
+
+// gear-review3
+.sawyer-hero {
+
+    background: url(../images/gear/filter-alone.jpg) fixed  no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 70vh;
+.caption {
+  padding: 20px 30px;
+  text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
+  color: white;
+  display: inline-block;
+  max-width: 650px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+margin: 120px 10% 20px 10%;
+
+  h2 {
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+}
+
+
+
+
+
+
+// Planning
+
+.planning-hero {
+    background: url(../images/Unsplash/Night-camping.jpg) fixed  no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 70vh;
+
+.caption {
+  padding: 20px 30px;
+  text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
+  color: white;
+  display: inline-block;
+  max-width: 650px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin: 120px 10% 20px 10%;
+
+  h2 {
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+}
+
+
+// route1
+.route1-hero {
+
+    background: url(../images/Unsplash/Austin.jpg) fixed no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+.caption {
+  padding: 20px 30px;
+  text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
+  color: white;
+  display: inline-block;
+  max-width: 650px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+margin: 120px 10% 20px 10%;
+
+  h2 {
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+}
+// route2
+.route2-hero {
+
+    background: url(../images/NM/feet.jpg) fixed no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+.caption {
+  padding: 20px 30px;
+  text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
+  color: white;
+  display: inline-block;
+  max-width: 650px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+margin: 120px 10% 20px 10%;
+
+  h2 {
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+}
+// route3
+.route3-hero {
+
+    background: url(../images/Unsplash/los-padres.jpg) fixed no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+.caption {
+  padding: 20px 30px;
+  text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
+  color: white;
+  display: inline-block;
+  max-width: 650px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+margin: 120px 10% 20px 10%;
+
+  h2 {
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+}
+
+
+// S T O R I E S
+.stories-hero {
+
+    background: url(../images/Unsplash/facing-wilderness.jpg) fixed no-repeat;
+    background-size: cover;
+    background-position: bottom;;
+    height: 70vh;
+.caption {
+  padding: 20px 30px;
+  text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
+  color: white;
+  display: inline-block;
+  max-width: 650px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+margin: 120px 10% 20px 10%;
+
+  h2 {
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+}
+
+
+// Story 1
+.story1-hero {
+
+    background: url(../images/stories/kiliannat.jpg) fixed no-repeat;
+    background-size: cover;
+    background-position: bottom;;
+    height: 70vh;
+.caption {
+  padding: 20px 30px;
+  text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
+  color: white;
+  display: inline-block;
+  max-width: 650px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+margin: 120px 10% 20px 10%;
+
+  h2 {
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+}
+
+// Story 2
+.story2-hero {
+
+    background: url(../images/NM/feet3.jpg) fixed no-repeat;
+    background-size: cover;
+    background-position: bottom;;
+    height: 70vh;
+.caption {
+  padding: 20px 30px;
+  text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
+  color: white;
+  display: inline-block;
+  max-width: 650px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin: 120px 10% 20px 10%;
+
+  h2 {
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+}

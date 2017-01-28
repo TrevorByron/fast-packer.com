@@ -1,0 +1,96 @@
+/* Imports */
+@import "partials/headers";
+@import "partials/heros";
+@import "partials/mains";
+@import "partials/colors";
+@import "partials/gear";
+@import "partials/planning";
+@import "neat/neat";
+@import "partials/slides";
+@import "partials/routes2";
+
+
+
+@font-face {
+    font-family: 'Moonshiner-Regular';
+    src:url('Moonshiner-Regular.ttf.woff') format('woff'),
+        url('Moonshiner-Regular.ttf.svg#Moonshiner-Regular') format('svg'),
+        url('Moonshiner-Regular.ttf.eot'),
+        url('Moonshiner-Regular.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+  font-family: 'Raleway';
+  color: #444;
+
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+  transition: .5s;
+}
+a:hover {
+  text-decoration: none;
+  color: grey;
+
+}
+a:focus {
+  outline: none;
+}
+
+/* Header */
+
+
+
+// hero
+
+
+//main
+
+
+// footer
+
+.footer {
+  background-color: #333;
+  height: 150px;
+  border-top: 1px solid #222222;
+
+  margin: 0 auto;
+  padding-top: 75px;
+  ul {
+    list-style: none;
+  }
+}
+
+
+// parrallax
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+  position: relative;
+  top: 700px;
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+}

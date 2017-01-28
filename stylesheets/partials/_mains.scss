@@ -1,0 +1,475 @@
+@import "../partials/colors";
+
+
+.main{
+  background-color: white;
+
+  .motivation {
+    width: 100%;
+    .triangle{
+      z-index: 1;
+      position: relative;
+      top: -20px;
+      margin: 0 auto;
+      width: 0;
+      height: 0;
+      border-left: 33px solid transparent;
+      border-right:33px solid transparent;
+      border-top: 50px solid $red;
+      }
+  h4 {
+      font-size: 30px;
+      font-weight: 700;
+      text-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+      letter-spacing: 10px;
+      margin-bottom: 65px;
+     }
+   }
+
+.secondary-nav {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  flex-wrap: wrap;
+  .box{
+    font-family: 'Lato', sans-serif;
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+    color: white;
+    overflow: hidden;
+    transition: background-color 1s ease;
+    h3 {
+      margin: 0;
+      padding: 130px 30px;
+      height: 300px;
+      width: 300px;
+      color: rgba(255, 255, 255, 0);
+      font-size: 20px;
+      font-weight: 400;
+      transition:  .5s;
+      background-color: rgba(033, 033, 033, 0);
+      text-shadow: none;
+    }
+  }
+  .box:hover h3 {
+    background-color: rgba(033, 033, 033, .5);
+    color: white;
+    text-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+    }
+  #photo-routes {
+    background: url(../images/Square/Square_0001_wooded-trail.jpg);
+    background-size: contain;
+  }
+  #photo-gear {
+        background: url(../images/gear/Square-gear/press.jpg);
+          background-size: contain;
+  }
+  #photo-plan {
+    background: url(../images/Square/Square_0006_Night-camping.jpg);
+        background-size: contain;
+  }
+  #photo-101 {
+    background: url(../images/Square/Square_0010_facing-wilderness.jpg);
+    background-size: contain;
+   }
+  }
+
+.about-FP {
+  padding: 100px 20% 110px 20%;
+  margin: 0 auto;
+  h3 {
+    margin: 0;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 3px;
+    }
+   }
+  }
+
+
+// P L A N N I N G
+
+
+.planning-info {
+h3 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+p {
+  min-height: 350px;
+}
+}
+
+.box {
+  background-color: red;
+  width: 100%;
+  height: 300px;
+    transform: .5s;
+
+h3 {
+  padding: 125px 15%;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(033, 033, 033, .6);
+  background-color: rgba(033, 033, 033, .8);
+  height: 300px;
+  transition: .5s;
+  border-bottom: none;
+}
+}
+.box:hover h3 {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0);
+  text-shadow: none;
+
+  }
+#link-stories {
+  background: url(../images/Square/Square_0010_facing-wilderness.jpg);
+  background-size: cover;
+}
+#link-routes {
+  background: url(../images/Square/Square_0001_wooded-trail.jpg);
+  background-size: cover;
+}
+#link-gear {
+  background: url(../images/gear/Square-gear/press.jpg);
+  background-size: cover;
+
+}
+
+// Route 2
+#highlights {
+
+  padding: 20px 15% 40px 15%;
+
+  a {
+    font-size: 20px;
+    color: $turquoise;
+  }
+  a:hover {
+      color: #333;
+  }
+  p {
+    text-align: left;
+    line-height: 1.6;
+    text-indent: 50px;
+    font-weight: 300;
+    font-size: 15px;
+  }
+}
+
+.stats {
+  h6 {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    background-color: $red;
+    display: inline-block;
+    padding: 5px 10px;
+      font-family: 'Lato';
+    width: 400px;
+    letter-spacing: 5px;
+    margin: 0;
+  }
+
+
+}
+.details {
+  font-family: 'Lato';
+  padding: 80px 15% 40px 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-top: 1px solid #eee;
+
+   p {
+     font-size: 15px;
+      font-weight: 300px;
+      font-family: 'Raleway';
+      line-height: 1.6;
+   }
+
+  .fa {
+    font-size: 30px;
+    background-color: #555;
+    padding-top: 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    color: white;
+
+  }
+  .detail {
+    width: 270px;
+    padding: 20px;
+    a {
+        color: $turquoise;
+
+    }
+    a:hover {
+        color: #333;
+    }
+  }
+
+}
+
+
+
+// PHOTO GALLERY IN ROUTE
+
+.photo-gallery {
+  margin-top: 40px;
+  background-color: #333;
+  padding-top: 40px;
+  padding-bottom: 90px;
+  h6 {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: -68px;
+    background-color: $red;
+    display: inline-block;
+    padding: 5px 10px;
+    font-family: 'Lato';
+    width: 400px;
+  }
+}
+
+.slider-for{
+	width: 90%;
+  max-width: 1000px;
+	margin: 30px auto 1px;
+	overflow: hidden;
+}
+img{
+	width: 100%;
+	min-height: 100%;
+}
+.slider-nav{
+  width: 90%;
+	max-width: 1000px;
+	margin: auto;
+  margin-top: 10px;
+
+  .item {
+    margin-left: 5px;
+    width: 90px;
+    height: 90px;
+  }
+}
+.slider-nav .slick-track{
+	height: 100px;
+}
+.slick-arrow{
+		position: absolute;
+    top: 50%;
+    z-index: 50;
+    margin-top: -12px;
+}
+.slick-prev{
+	left: 0;
+}
+.slick-next{
+	right: 0;
+}
+#map{
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: -20px;
+  background-color: $red;
+  width: 400px;
+  margin: 0 auto;
+  padding: 5px 10px;
+  font-family: 'Lato';
+}
+
+iframe {
+  max-width: 1000px;
+  width: 90%;
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+
+// G E A R
+
+
+
+#gear-pad{
+  background: url(../images/gear/Square-gear/pad.jpg);
+  background-size: contain;
+}
+
+#gear-press{
+  background: url(../images/gear/Square-gear/press.jpg);
+  background-size: contain;
+}
+
+#gear-pack{
+    background: url(../images/gear/Square-gear/pack.jpg);
+  background-size: contain;
+}
+
+#gear-nesting{
+  background: url(../images/gear/Square-gear/nesting.jpg);
+  background-size: contain;
+}
+#gear-stove{
+background: url(../images/gear/Square-gear/stove.jpg);
+  background-size: contain;
+}
+#gear-filter{
+background: url(../images/gear/Square-gear/filter.jpg);
+  background-size: contain;
+}
+
+
+// GEAR REVIEW
+#highlights {
+  p{
+  img{
+    border-radius: 3px;
+        box-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+  }
+}
+}
+
+.gear-details {
+  font-family: 'Lato';
+  padding: 80px 15% 40px 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-top: 1px solid #eee;
+
+   p {
+     font-size: 15px;
+      font-weight: 300px;
+      font-family: 'Raleway';
+      line-height: 1.6;
+   }
+
+  .fa {
+    font-size: 30px;
+    background-color: #555;
+    padding-top: 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    color: white;
+    float: left;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 25px;
+
+  }
+  .tech-info {
+    width: 50%;
+    min-width: 300px;
+  }
+  .detail {
+    width:100%;
+    overflow: hidden;
+    text-align: left;
+
+    a {
+        color: $turquoise;
+
+    }
+    a:hover {
+        color: #333;
+    }
+  }
+  .gear-links {
+    width: 50%;
+    min-width: 300px;
+    padding: 40px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    .keeper {
+      width: 100%;
+      img {
+        box-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+        border-radius: 3px;
+      }
+    }
+    a {
+      margin: 0 auto;
+    }
+    .buy {
+      align-self: center;
+      color: white;
+      border-radius: 40px;
+      background-color: rgba(105, 177, 173, .8);
+      width: 200px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      box-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+      margin: 0 auto;
+      transition: .5s;
+      margin-top: 30px;
+      border-radius: 30px;
+      height: 50px;
+
+      h4{
+      display: inline-block;
+      margin: 0;
+      letter-spacing: 5px;
+      font-size: 15px;
+      }
+    }
+
+    .buy:hover {
+      background-color: grey;
+
+    }
+  }
+
+}
+
+
+// S T O R I E S
+
+
+#kilian{
+  background: url(../images/Square/kiliannat.jpg);
+  background-size: contain;
+}
+
+#pecos {
+  background: url(../images/Square/feet3.jpg);
+  background-size: contain;
+}
+
+.send-to-route {
+  align-self: center;
+  color: white;
+  border-radius: 40px;
+  background-color: rgba(105, 177, 173, .8);
+  display: inline-block;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+  margin: 0 auto;
+  transition: .5s;
+  border-radius: 30px;
+  margin-bottom: 60px;
+
+  h4{
+
+  margin: 0;
+  letter-spacing: 5px;
+  font-size: 15px;
+
+}
+}
+
+.send-to-route:hover {
+  background-color: grey;
+
+}
