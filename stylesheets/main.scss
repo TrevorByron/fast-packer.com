@@ -8,6 +8,7 @@
 @import "neat/neat";
 @import "partials/slides";
 @import "partials/routes2";
+@import "partials/css-filter";
 
 
 
@@ -94,3 +95,6 @@ a:focus {
 .parallax__layer--back {
   transform: translateZ(-1px) scale(2);
 }
+
+
+@import "partials/breakpoints";

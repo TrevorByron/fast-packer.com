@@ -1,0 +1,148 @@
+
+
+.container {
+  width:90%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+input[type="radio"] {
+    display:none;
+}
+label {
+  width:25%;
+  max-width: 200px;
+  float:left;
+  text-align:center;
+  background-color: #555;
+  border-radius: 3px;
+  color: white;
+  padding:0.5%;
+  margin:0.5%;
+  margin-bottom:30px;
+  cursor:pointer;
+  font-weight: 100;
+  font-family: 'Lato';
+  transition: .5s;
+  box-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+  min-width: 155px;
+}
+label:hover {
+    background-color:rgba(105, 177, 173, 1);
+}
+.breaker {
+  width: 100%;
+}
+
+.tile {
+  width:300px;
+  margin:1%;
+
+}
+.css-filter {
+  margin-bottom: 60px;
+  .route-item {
+    margin: 0px;
+  }
+}
+// Gear-filtered
+
+input[type="radio"][id="packs"]:checked + label {
+  background-color:rgba(105, 177, 173, 1);
+}
+input[type="radio"][id="packs"]:checked ~ .camping, input[type="radio"][id="packs"]:checked ~ .foodandh20 {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+input[type="radio"][id="camping"]:checked + label {
+    background-color:rgba(105, 177, 173, 1);
+}
+input[type="radio"][id="camping"]:checked ~ .packs, input[type="radio"][id="camping"]:checked ~ .foodandh20 {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+input[type="radio"][id="foodandh20"]:checked + label {
+    background-color:rgba(105, 177, 173, 1);
+}
+input[type="radio"][id="foodandh20"]:checked ~ .packs, input[type="radio"][id="foodandh20"]:checked ~ .camping {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+
+// Route Filtered
+
+input[type="radio"][id="daytrips"]:checked + label {
+  background-color:rgba(105, 177, 173, 1);
+}
+input[type="radio"][id="daytrips"]:checked ~ .overnights, input[type="radio"][id="daytrips"]:checked ~ .loops, input[type="radio"][id="daytrips"]:checked ~ .thru {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+input[type="radio"][id="overnights"]:checked + label {
+    background-color:rgba(105, 177, 173, 1);
+}
+input[type="radio"][id="overnights"]:checked ~ .daytrips, input[type="radio"][id="overnights"]:checked ~ .loops, input[type="radio"][id="overnights"]:checked ~ .thru  {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+input[type="radio"][id="loops"]:checked + label {
+    background-color:rgba(105, 177, 173, 1);
+}
+input[type="radio"][id="loops"]:checked ~ .daytrips, input[type="radio"][id="loops"]:checked ~ .overnights, input[type="radio"][id="loops"]:checked ~ .thru  {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+
+input[type="radio"][id="thru"]:checked + label {
+    background-color:rgba(105, 177, 173, 1);
+}
+input[type="radio"][id="thru"]:checked ~ .daytrips, input[type="radio"][id="thru"]:checked ~ .overnights, input[type="radio"][id="thru"]:checked ~ .loops {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+
+// Stories Filtered
+input[type="radio"][id="yourstories"]:checked + label {
+  background-color:rgba(105, 177, 173, 1);
+}
+input[type="radio"][id="yourstories"]:checked ~ .mediaandnews {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+input[type="radio"][id="mediaandnews"]:checked + label {
+    background-color:rgba(105, 177, 173, 1);
+}
+input[type="radio"][id="mediaandnews"]:checked ~ .yourstories {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}

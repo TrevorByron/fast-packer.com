@@ -36,44 +36,14 @@ $(document).ready(function(){
 
 
 $(window).scroll(function () {
-
    $('.slow').css({
       'top' : +($(this).scrollTop()/2)+"px"
    });
 
 });
-// mixitup
-
-var Portfolio = {
-    sort: function(items) {
-        items.show();
-        $('#route-content').find('div.route-item').not(items).fadeOut(500);
-    },
-    showAll: function(items) {
-        items.fadeIn(500);
-    },
-    doSort: function() {
-        $('a', '#filters').on('click', function() {
-
-            var $a = $(this);
-            if (!$a.is('#all')) {
-
-                var items = $('div[data-cat=' + $a.data('cat') + ']', '#route-content');
-
-                Portfolio.sort(items);
-
-            } else {
-
-                Portfolio.showAll($('div.route-item', '#route-content'));
 
 
-            }
 
-        });
-    }
-};
-
-Portfolio.doSort();
 
 $(document).ready(function(){
 

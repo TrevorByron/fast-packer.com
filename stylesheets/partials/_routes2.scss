@@ -79,18 +79,21 @@
       height: 300px;
       margin: 0;
       padding: 125px 10%;
-      color: rgba(255, 255, 255, 0);
+      color: white;
+      background-color: rgba(033, 033, 033, .7);
       font-size: 20px;
-      font-weight: 400;
+      font-weight: 600;
       transition:  .5s;
       text-align: center;
       text-transform: uppercase;
+      text-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
     }
 
     .route-display:hover h3 {
-      background-color: rgba(033, 033, 033, .5);
-      color: white;
-      text-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+    background-color: rgba(033, 033, 033, .0);
+      color: rgba(255, 255, 255, 0);
+      text-shadow: none;
+
       }
       p {
         font-size: 20px;

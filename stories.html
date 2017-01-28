@@ -56,40 +56,52 @@
     <div class="motivation">
       <div class="triangle"> </div>
     </div>
-    <div class="filter">
-      <p>Filter Stories by:</p>
+  
+    <div class="css-filter">
 
-      <div id="route-selector">
-          <div id="filters">
-              <a href="#main" id="all">View All</a>
-              <a href="#main" data-cat="yourstories">Your Stories</a>
-              <a href="#main" data-cat="mediaandnews">Media and News</a>
+      <p>FILTER BY:</p>
+    <div class="container">
+      <input type="radio" id="reset" name="color"/>
+      <label for="reset">VIEW ALL</label>
+      <input type="radio" id="yourstories" name="color" />
+      <label for="yourstories">YOUR STORIES</label>
+      <input type="radio" id="mediaandnews" name="color"/>
+      <label for="mediaandnews">MEDIA AND NEWS</label>
 
-          </div>
-
-          <div id="route-content">
-
-              <div class="route-item" data-cat="mediaandnews">
-                <a href="story1.html">
-                <div id="kilian" class="route-display ">
-                <h3>Kilian <br> Salomon TV</h3>
-              </div></a>
-              <p>Media and News / Video </p>
-              </div>
-
-              <div class="route-item" data-cat="yourstories">
-              <a href="story2.html"> <div id="pecos" class="route-display ">
-                  <h3>4 NIGHTS AND 4 MILES IN THE PECOS WILDERNESS </h3>
-                </div></a>
-                <p>Your Stories </p>
-              </div>
-
-
-
-          </div>
-
-      </div>
+    <div class="breaker">
     </div>
+      <div class="tile yourstories">
+        <div class="route-item" data-cat="yourstories">
+        <a href="story2.html"> <div id="pecos" class="route-display ">
+            <h3>4 NIGHTS AND 4 MILES IN THE PECOS WILDERNESS </h3>
+          </div></a>
+          <p>Your Stories </p>
+        </div>
+      </div>
+
+      <div class="tile mediaandnews">
+        <div class="route-item" data-cat="mediaandnews">
+          <a href="story1.html">
+          <div id="kilian" class="route-display ">
+          <h3>Kilian <br> Salomon TV</h3>
+        </div></a>
+        <p>Media and News / Video </p>
+        </div>
+      </div>
+
+
+
+    </div>
+        </div>
+
+
+
+
+
+
+
+
+
 </section>
 <section class="footer">
 <ul>

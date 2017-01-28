@@ -56,73 +56,81 @@
     <div class="motivation">
       <div class="triangle"> </div>
     </div>
-    <div class="filter">
-      <p>Filter Gear by:</p>
 
-      <div id="route-selector">
-          <div id="filters">
-              <a href="#main" id="all">View All</a>
-              <a href="#main" data-cat="packs">Packs</a>
-              <!-- <a href="#main" data-cat="OverNights">Shoes</a> -->
-              <a href="#main" data-cat="camping">Camping</a>
-              <a href="#main" data-cat="foodand">Food and Hydration</a>
-          </div>
+<div class="css-filter">
 
-          <div id="route-content">
+  <p>FILTER BY:</p>
+<div class="container">
+  <input type="radio" id="reset" name="color"/>
+  <label for="reset">VIEW ALL</label>
+  <input type="radio" id="packs" name="color" />
+  <label for="packs">PACKS</label>
+  <input type="radio" id="camping" name="color"/>
+  <label for="camping">CAMPING</label>
+  <input type="radio" id="foodandh20" name="color"/>
+  <label for="foodandh20">FOOD AND H20</label>
 
-              <div class="route-item" data-cat="camping">
-                <a href="gear-review1.html"> <div id="gear-pad" class="route-display ">
-                  <h3>NEMO TENSOR INSULATED AIR PAD</h3>
-                </div></a>
-                <p>Camping</p>
-              </div>
-
-
-
-              <div class="route-item" data-cat="packs">
-                  <a href="gear-review2.html"><div id="gear-pack" class="route-display ">
-                  <h3>Osprey Talon 33 Pack</h3>
-                </div></a>
-                <p>Packs</p>
-              </div>
-
-              <div class="route-item" data-cat="foodand">
-              <a href="gear-review3.html">  <div id="gear-filter" class="route-display ">
-                  <h3>Sawyer Squeeze Water Filter System</h3>
-                </div></a>
-                <p>Food and Hydration</p>
-              </div>
-
-              <div class="route-item" data-cat="camping">
-                <div id="gear-nesting" class="route-display ">
-                <h3>Snowpeak Nesting Pots</h3>
-              </div>
-              <p>Camping </p>
-              </div>
-
-              <div class="route-item" data-cat="camping">
-                <div id="gear-stove" class="route-display ">
-                <h3>Snowpeak Stove</h3>
-              </div>
-              <p>Camping</p>
-              </div>
-
-              <div class="route-item" data-cat="camping">
-                 <div id="gear-press" class="route-display ">
-                  <h3>Snow Peak Titanium Cafe Press</h3>
-                </div>
-                <p>Camping</p>
-              </div>
-
-
-
-
-
-
-          </div>
-
-      </div>
+<div class="breaker">
+</div>
+  <div class="tile camping">
+    <div class="route-item" data-cat="camping">
+      <a href="gear-review1.html"> <div id="gear-pad" class="route-display ">
+        <h3>NEMO TENSOR INSULATED AIR PAD</h3>
+      </div></a>
+      <p>Camping</p>
     </div>
+  </div>
+
+  <div class="tile packs">
+    <div class="route-item" data-cat="packs">
+        <a href="gear-review2.html"><div id="gear-pack" class="route-display ">
+        <h3>Osprey Talon 33 Pack</h3>
+      </div></a>
+      <p>Packs</p>
+    </div>
+  </div>
+
+  <div class="tile foodandh20">
+    <div class="route-item" data-cat="foodandh20">
+    <a href="gear-review3.html">  <div id="gear-filter" class="route-display ">
+        <h3>Sawyer Squeeze Water Filter System</h3>
+      </div></a>
+      <p>Food and H20</p>
+    </div>
+  </div>
+  <div class="tile camping">
+    <div class="route-item" data-cat="camping">
+      <div id="gear-nesting" class="route-display ">
+      <h3>Snowpeak Nesting Pots</h3>
+    </div>
+    <p>Camping </p>
+    </div>
+  </div>
+  <div class="tile camping">
+
+                  <div class="route-item" data-cat="camping">
+                    <div id="gear-stove" class="route-display ">
+                    <h3>Snowpeak Stove</h3>
+                  </div>
+                  <p>Camping</p>
+                  </div>
+
+  </div>
+  <div class="tile camping">
+    <div class="route-item" data-cat="camping">
+       <div id="gear-press" class="route-display ">
+        <h3>Snow Peak Titanium Cafe Press</h3>
+      </div>
+      <p>Camping</p>
+    </div>
+
+  </div>
+
+</div>
+    </div>
+
+
+
 </section>
 <section class="footer">
 <ul>
