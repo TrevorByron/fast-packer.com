@@ -54,17 +54,19 @@ header {
 @media (max-width: 830px) {
   .hero .caption h2 {
     font-size: 30px;
-    line-height: 1.5; } }
+    line-height: 1.5;
+    letter-spacing: 2px; } }
 @media (max-width: 630px) {
   .hero .caption h2 {
     font-size: 20px; } }
 @media (max-width: 530px) {
   .hero .caption h2 {
-    font-size: 15px; } }
+    font-size: 18px; } }
 @media (max-width: 830px) {
   .hero2 .caption h2 {
     font-size: 30px;
-    line-height: 1.5; } }
+    line-height: 1.5;
+    letter-spacing: 2px; } }
 @media (max-width: 630px) {
   .hero2 .caption h2 {
     font-size: 25px; }
@@ -161,7 +163,8 @@ header {
       font-size: 40px;
       letter-spacing: 10px; }
     .hero .caption h3 {
-      font-size: 15px; }
+      font-size: 15px;
+      font-weight: 400; }
   .hero li {
     list-style: none;
     margin: 0 auto; }
@@ -206,7 +209,8 @@ header {
       letter-spacing: 10px; }
     .hero2 .caption h3 {
       font-size: 18px;
-      line-height: 1.5; }
+      line-height: 1.5;
+      font-weight: 400; }
 
 .route-hero {
   background: url(../images/Unsplash/wooded-trail.jpg) fixed no-repeat; }
@@ -816,6 +820,7 @@ slick-dots li.slick-active button:before {
     color: white;
     background-color: rgba(33, 33, 33, 0.7);
     font-size: 24px;
+    font-weight: 400;
     transition: .5s;
     text-align: center;
     text-transform: uppercase;
@@ -1057,17 +1062,19 @@ a:focus {
 @media (max-width: 830px) {
   .hero .caption h2 {
     font-size: 30px;
-    line-height: 1.5; } }
+    line-height: 1.5;
+    letter-spacing: 2px; } }
 @media (max-width: 630px) {
   .hero .caption h2 {
     font-size: 20px; } }
 @media (max-width: 530px) {
   .hero .caption h2 {
-    font-size: 15px; } }
+    font-size: 18px; } }
 @media (max-width: 830px) {
   .hero2 .caption h2 {
     font-size: 30px;
-    line-height: 1.5; } }
+    line-height: 1.5;
+    letter-spacing: 2px; } }
 @media (max-width: 630px) {
   .hero2 .caption h2 {
     font-size: 25px; }
