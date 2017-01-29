@@ -12,15 +12,15 @@
 
 
 
-@font-face {
-    font-family: 'Moonshiner-Regular';
-    src:url('Moonshiner-Regular.ttf.woff') format('woff'),
-        url('Moonshiner-Regular.ttf.svg#Moonshiner-Regular') format('svg'),
-        url('Moonshiner-Regular.ttf.eot'),
-        url('Moonshiner-Regular.ttf.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
+
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+
 
 
 body{

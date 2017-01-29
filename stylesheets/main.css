@@ -13,7 +13,9 @@ header {
   background: linear-gradient(rgba(22, 22, 22, 0.3), transparent);
   font-family: 'Lato';
   font-weight: 400;
-  padding: 5px 10px 24px; }
+  padding: 5px 10px 24px;
+  min-height: 60px;
+  max-height: 90px; }
   header img {
     width: 200px;
     position: relative;
@@ -45,9 +47,14 @@ header {
   position: relative;
   top: 30px; }
 
+::i-block-chrome header nav ul li, .safari header nav ul li {
+  position: relative;
+  top: -20px; }
+
 @media (max-width: 830px) {
   .hero .caption h2 {
-    font-size: 30px; } }
+    font-size: 30px;
+    line-height: 1.5; } }
 @media (max-width: 630px) {
   .hero .caption h2 {
     font-size: 20px; } }
@@ -56,7 +63,8 @@ header {
     font-size: 15px; } }
 @media (max-width: 830px) {
   .hero2 .caption h2 {
-    font-size: 30px; } }
+    font-size: 30px;
+    line-height: 1.5; } }
 @media (max-width: 630px) {
   .hero2 .caption h2 {
     font-size: 25px; }
@@ -988,11 +996,11 @@ input[type="radio"][id="mediaandnews"]:checked ~ .yourstories {
   opacity: 0;
   display: none; }
 
-@font-face {
-  font-family: 'Moonshiner-Regular';
-  src: url("Moonshiner-Regular.ttf.woff") format("woff"), url("Moonshiner-Regular.ttf.svg#Moonshiner-Regular") format("svg"), url("Moonshiner-Regular.ttf.eot"), url("Moonshiner-Regular.ttf.eot?#iefix") format("embedded-opentype");
-  font-weight: normal;
-  font-style: normal; }
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
 body {
   font-family: 'Raleway';
   color: #444;
@@ -1047,7 +1055,8 @@ a:focus {
 
 @media (max-width: 830px) {
   .hero .caption h2 {
-    font-size: 30px; } }
+    font-size: 30px;
+    line-height: 1.5; } }
 @media (max-width: 630px) {
   .hero .caption h2 {
     font-size: 20px; } }
@@ -1056,7 +1065,8 @@ a:focus {
     font-size: 15px; } }
 @media (max-width: 830px) {
   .hero2 .caption h2 {
-    font-size: 30px; } }
+    font-size: 30px;
+    line-height: 1.5; } }
 @media (max-width: 630px) {
   .hero2 .caption h2 {
     font-size: 25px; }

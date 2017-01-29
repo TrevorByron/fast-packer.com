@@ -16,6 +16,8 @@ header {
     font-family: 'Lato';
     font-weight: 400;
     padding: 5px 10px 24px;
+    min-height: 60px;
+    max-height: 90px;
 
     img {
         width: 200px;
@@ -58,5 +60,18 @@ header {
     display: none;
     position: relative;
     top: 30px;
+}
+
+::i-block-chrome, .safari{
+  header {
+    nav {
+      ul {
+        li{
+          position: relative;
+          top: -20px
+        }
+      }
+    }
+  }
 }
 @import "../partials/breakpoints";
