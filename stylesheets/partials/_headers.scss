@@ -1,18 +1,13 @@
 // This is the header that appears once you've begun to scroll
 
 .second-nav {
-  background-color: #333;
-    visibility:hidden;
+    background-color: #333;
+    visibility: hidden;
 }
-
-
-
 // This effects the header on all pages
-
 header {
-
     text-shadow: 1px 1px 1px rgba(033, 033, 033, .4);
-    z-index: 501;
+    z-index: 1;
     position: fixed;
     top: 0;
     width: 100%;
@@ -20,45 +15,48 @@ header {
     background: linear-gradient(rgba(022, 022, 022, .3), rgba(0, 0, 0, .0));
     font-family: 'Lato';
     font-weight: 400;
-    z-index: 100000;
-    padding: 5px 10px 24px 10px;
+    padding: 5px 10px 24px;
+
     img {
-      width: 200px;
-      position: relative;
-      top: -14px;
-      margin-top: 0px;
-      z-index: 50000;
+        width: 200px;
+        position: relative;
+        top: -14px;
+        margin-top: 0;
+
     }
-  nav {
-      text-align: center;
-      width: 100%;
-      position: relative;
-      margin: 0 auto;
-      ul {
-          margin: 0 auto;
-          padding: 0;
-          li {
-               text-align: center;
-              display: inline-block;
-              margin-left: 35px;
+
+    nav {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+
+        ul {
+            margin: 0 auto;
+            padding: 0;
+
+            li {
+                text-align: center;
+                display: inline-block;
+                margin-left: 35px;
                 margin-right: 35px;
-              font-size: 15px;
-              color: white;
-              transition: .3s;
-              position: relative;
-              top: 20px;
-          }
-          li:hover {
-            text-decoration: none;
-            color: grey;
-          }
-      }
-   }
-}
-#logo-small {
-  display: none;
-  position: relative;
-  top: 30px;
+                font-size: 15px;
+                color: white;
+                transition: 0.3s;
+                position: relative;
+                top: 20px;
+            }
+
+            li:hover {
+                text-decoration: none;
+                color: grey;
+            }
+        }
+    }
 }
 
+#logo-small {
+    display: none;
+    position: relative;
+    top: 30px;
+}
 @import "../partials/breakpoints";

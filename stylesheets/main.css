@@ -5,7 +5,7 @@
 
 header {
   text-shadow: 1px 1px 1px rgba(33, 33, 33, 0.4);
-  z-index: 501;
+  z-index: 1;
   position: fixed;
   top: 0;
   width: 100%;
@@ -13,18 +13,15 @@ header {
   background: linear-gradient(rgba(22, 22, 22, 0.3), transparent);
   font-family: 'Lato';
   font-weight: 400;
-  z-index: 100000;
-  padding: 5px 10px 24px 10px; }
+  padding: 5px 10px 24px; }
   header img {
     width: 200px;
     position: relative;
     top: -14px;
-    margin-top: 0px;
-    z-index: 50000; }
+    margin-top: 0; }
   header nav {
     text-align: center;
     width: 100%;
-    position: relative;
     margin: 0 auto; }
     header nav ul {
       margin: 0 auto;
@@ -36,7 +33,7 @@ header {
         margin-right: 35px;
         font-size: 15px;
         color: white;
-        transition: .3s;
+        transition: 0.3s;
         position: relative;
         top: 20px; }
       header nav ul li:hover {
@@ -57,6 +54,19 @@ header {
 @media (max-width: 530px) {
   .hero .caption h2 {
     font-size: 15px; } }
+@media (max-width: 830px) {
+  .hero2 .caption h2 {
+    font-size: 30px; } }
+@media (max-width: 630px) {
+  .hero2 .caption h2 {
+    font-size: 25px; }
+  .hero2 .caption h3 {
+    font-size: 15px; } }
+@media (max-width: 530px) {
+  .hero2 .caption h2 {
+    font-size: 25px; }
+  .hero2 .caption h3 {
+    font-size: 13px; } }
 @media (max-width: 830px) {
   #logo-small {
     display: block;
@@ -149,7 +159,7 @@ header {
     color: white;
     border-radius: 40px;
     background-color: rgba(105, 177, 173, 0.8);
-    width: 220px;
+    width: 210px;
     padding-bottom: 10px;
     padding-top: 10px;
     box-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2);
@@ -160,18 +170,17 @@ header {
       display: inline-block;
       border-radius: 30px;
       margin: 0;
-      letter-spacing: 5px;
+      letter-spacing: 3px;
       font-size: 15px; }
   .hero .hero-btn:hover {
     background-color: rgba(255, 255, 255, 0.8);
     color: #69B1AD; }
 
-.route-hero {
-  background: url(../images/Unsplash/wooded-trail.jpg) fixed no-repeat;
+.hero2 {
   background-position: center;
   background-size: cover;
   height: 70vh; }
-  .route-hero .caption {
+  .hero2 .caption {
     padding: 20px 30px;
     text-shadow: 1px 1px 2px rgba(33, 33, 33, 0.6);
     color: white;
@@ -181,272 +190,76 @@ header {
     text-transform: uppercase;
     margin: 0 auto;
     margin: 120px 5% 20px 5%; }
-    .route-hero .caption h2 {
+    .hero2 .caption h2 {
       font-weight: 700;
       font-size: 35px;
       letter-spacing: 10px; }
-    .route-hero .caption h3 {
+    .hero2 .caption h3 {
       font-size: 18px;
       line-height: 1.5; }
+
+.route-hero {
+  background: url(../images/Unsplash/wooded-trail.jpg) fixed no-repeat; }
 
 .gear-hero {
   background: url(../images/gear/press-everything.jpg) fixed no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 70vh; }
-  .gear-hero .caption {
-    padding: 20px 30px;
-    text-shadow: 1px 1px 2px rgba(33, 33, 33, 0.6);
-    color: white;
-    display: inline-block;
-    max-width: 650px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin: 120px 5% 20px 5%; }
-    .gear-hero .caption h2 {
-      font-weight: 700;
-      font-size: 35px;
-      letter-spacing: 10px; }
-    .gear-hero .caption h3 {
-      font-size: 18px;
-      line-height: 1.5; }
+  background-position: center; }
 
 .nemo-hero {
   background: url(../images/gear/pad-close.jpg) fixed no-repeat;
-  background-size: cover;
-  height: 70vh; }
-  .nemo-hero .caption {
-    padding: 20px 30px;
-    text-shadow: 1px 1px 2px rgba(33, 33, 33, 0.6);
-    color: white;
-    display: inline-block;
-    max-width: 650px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin: 120px 5% 20px 5%; }
-    .nemo-hero .caption h2 {
-      font-weight: 700;
-      font-size: 35px;
-      letter-spacing: 10px; }
-    .nemo-hero .caption h3 {
-      font-size: 18px;
-      line-height: 1.5; }
+  background-size: cover; }
 
 .ospray-hero {
   background: url(../images/gear/pack-front.jpg) fixed no-repeat;
   background-size: cover;
-  background-position: bottom;
-  height: 70vh; }
-  .ospray-hero .caption {
-    padding: 20px 30px;
-    text-shadow: 1px 1px 2px rgba(33, 33, 33, 0.6);
-    color: white;
-    display: inline-block;
-    max-width: 650px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin: 120px 5% 20px 5%; }
-    .ospray-hero .caption h2 {
-      font-weight: 700;
-      font-size: 35px;
-      letter-spacing: 10px; }
-    .ospray-hero .caption h3 {
-      font-size: 18px;
-      line-height: 1.5; }
+  background-position: bottom; }
 
 .sawyer-hero {
   background: url(../images/gear/filter-alone.jpg) fixed no-repeat;
   background-size: cover;
-  background-position: bottom;
-  height: 70vh; }
-  .sawyer-hero .caption {
-    padding: 20px 30px;
-    text-shadow: 1px 1px 2px rgba(33, 33, 33, 0.6);
-    color: white;
-    display: inline-block;
-    max-width: 650px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin: 120px 5% 20px 5%; }
-    .sawyer-hero .caption h2 {
-      font-weight: 700;
-      font-size: 35px;
-      letter-spacing: 10px; }
-    .sawyer-hero .caption h3 {
-      font-size: 18px;
-      line-height: 1.5; }
+  background-position: bottom; }
 
 .planning-hero {
   background: url(../images/Unsplash/Night-camping.jpg) fixed no-repeat;
   background-size: cover;
-  background-position: bottom;
-  height: 70vh; }
-  .planning-hero .caption {
-    padding: 20px 30px;
-    text-shadow: 1px 1px 2px rgba(33, 33, 33, 0.6);
-    color: white;
-    display: inline-block;
-    max-width: 650px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin: 120px 5% 20px 5%; }
-    .planning-hero .caption h2 {
-      font-weight: 700;
-      font-size: 35px;
-      letter-spacing: 10px; }
-    .planning-hero .caption h3 {
-      font-size: 18px;
-      line-height: 1.5; }
+  background-position: bottom; }
 
 .route1-hero {
   background: url(../images/Unsplash/Austin.jpg) fixed no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 70vh; }
-  .route1-hero .caption {
-    padding: 20px 30px;
-    text-shadow: 1px 1px 2px rgba(33, 33, 33, 0.6);
-    color: white;
-    display: inline-block;
-    max-width: 650px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin: 120px 5% 20px 5%; }
-    .route1-hero .caption h2 {
-      font-weight: 700;
-      font-size: 35px;
-      letter-spacing: 10px; }
-    .route1-hero .caption h3 {
-      font-size: 18px;
-      line-height: 1.5; }
+  background-position: center; }
 
 .route2-hero {
   background: url(../images/NM/feet.jpg) fixed no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 70vh; }
-  .route2-hero .caption {
-    padding: 20px 30px;
-    text-shadow: 1px 1px 2px rgba(33, 33, 33, 0.6);
-    color: white;
-    display: inline-block;
-    max-width: 650px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin: 120px 5% 20px 5%; }
-    .route2-hero .caption h2 {
-      font-weight: 700;
-      font-size: 35px;
-      letter-spacing: 10px; }
-    .route2-hero .caption h3 {
-      font-size: 18px;
-      line-height: 1.5; }
+  background-position: center; }
 
 .route3-hero {
   background: url(../images/Unsplash/los-padres.jpg) fixed no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 70vh; }
-  .route3-hero .caption {
-    padding: 20px 30px;
-    text-shadow: 1px 1px 2px rgba(33, 33, 33, 0.6);
-    color: white;
-    display: inline-block;
-    max-width: 650px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin: 120px 5% 20px 5%; }
-    .route3-hero .caption h2 {
-      font-weight: 700;
-      font-size: 35px;
-      letter-spacing: 10px; }
-    .route3-hero .caption h3 {
-      font-size: 18px;
-      line-height: 1.5; }
+  background-position: center; }
 
 .stories-hero {
   background: url(../images/Unsplash/facing-wilderness.jpg) fixed no-repeat;
   background-size: cover;
-  background-position: bottom;
-  height: 70vh; }
-  .stories-hero .caption {
-    padding: 20px 30px;
-    text-shadow: 1px 1px 2px rgba(33, 33, 33, 0.6);
-    color: white;
-    display: inline-block;
-    max-width: 650px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin: 120px 5% 20px 5%; }
-    .stories-hero .caption h2 {
-      font-weight: 700;
-      font-size: 35px;
-      letter-spacing: 10px; }
-    .stories-hero .caption h3 {
-      font-size: 18px;
-      line-height: 1.5; }
+  background-position: bottom; }
 
 .story1-hero {
   background: url(../images/stories/kiliannat.jpg) fixed no-repeat;
   background-size: cover;
-  background-position: bottom;
-  height: 70vh; }
-  .story1-hero .caption {
-    padding: 20px 30px;
-    text-shadow: 1px 1px 2px rgba(33, 33, 33, 0.6);
-    color: white;
-    display: inline-block;
-    max-width: 650px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin: 120px 5% 20px 5%; }
-    .story1-hero .caption h2 {
-      font-weight: 700;
-      font-size: 35px;
-      letter-spacing: 10px; }
-    .story1-hero .caption h3 {
-      font-size: 18px;
-      line-height: 1.5; }
+  background-position: bottom; }
 
 .story2-hero {
   background: url(../images/NM/feet3.jpg) fixed no-repeat;
   background-size: cover;
-  background-position: bottom;
-  height: 70vh; }
-  .story2-hero .caption {
-    padding: 20px 30px;
-    text-shadow: 1px 1px 2px rgba(33, 33, 33, 0.6);
-    color: white;
-    display: inline-block;
-    max-width: 650px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin: 120px 5% 20px 5%; }
-    .story2-hero .caption h2 {
-      font-weight: 700;
-      font-size: 35px;
-      letter-spacing: 10px; }
-    .story2-hero .caption h3 {
-      font-size: 18px;
-      line-height: 1.5; }
+  background-position: bottom; }
 
 .main {
   background-color: white; }
   .main .motivation {
     width: 100%; }
     .main .motivation .triangle {
-      z-index: 1;
       position: relative;
       top: -20px;
       margin: 0 auto;
@@ -480,16 +293,17 @@ header {
         padding: 130px 30px;
         height: 300px;
         width: 300px;
-        color: rgba(255, 255, 255, 0);
-        font-size: 20px;
+        color: white;
+        font-size: 24px;
         font-weight: 400;
         transition: .5s;
-        background-color: rgba(33, 33, 33, 0);
-        text-shadow: none; }
+        background-color: rgba(33, 33, 33, 0.6);
+        text-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2); }
     .main .secondary-nav .box:hover h3 {
-      background-color: rgba(33, 33, 33, 0.5);
-      color: white;
-      text-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2); }
+      background-color: rgba(33, 33, 33, 0);
+      text-shadow: none;
+      color: rgba(255, 255, 255, 0);
+      text-shadow: 1px 1px 1px rgba(33, 33, 33, 0); }
     .main .secondary-nav #photo-routes {
       background: url(../images/Square/Square_0001_wooded-trail.jpg);
       background-size: contain; }
@@ -573,7 +387,8 @@ header {
   display: inline-block;
   padding: 5px 10px;
   font-family: 'Lato';
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   letter-spacing: 5px;
   margin: 0; }
 
@@ -619,7 +434,8 @@ header {
     display: inline-block;
     padding: 5px 10px;
     font-family: 'Lato';
-    width: 400px; }
+    max-width: 400px;
+    width: 100%; }
 
 .slider-for {
   width: 90%;
@@ -662,7 +478,8 @@ img {
   position: relative;
   top: -20px;
   background-color: #6B0F1A;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   margin: 0 auto;
   padding: 5px 10px;
   font-family: 'Lato'; }
@@ -794,7 +611,7 @@ iframe {
   margin-bottom: 60px; }
   .send-to-route h4 {
     margin: 0;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-size: 15px; }
 
 .send-to-route:hover {
@@ -913,8 +730,7 @@ ul.slick-dots {
   padding: 0;
   margin: 0;
   list-style: none;
-  text-align: center;
-  z-index: 1000; }
+  text-align: center; }
 
 .slick-dots li button:before {
   color: white;
@@ -990,8 +806,7 @@ slick-dots li.slick-active button:before {
     padding: 125px 10%;
     color: white;
     background-color: rgba(33, 33, 33, 0.7);
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 24px;
     transition: .5s;
     text-align: center;
     text-transform: uppercase;
@@ -1082,7 +897,8 @@ input[type="radio"][id="packs"]:checked ~ .camping, input[type="radio"][id="pack
   height: 0;
   padding: 0;
   margin: 0;
-  opacity: 0; }
+  opacity: 0;
+  display: none; }
 
 input[type="radio"][id="camping"]:checked + label {
   background-color: #69b1ad; }
@@ -1092,7 +908,8 @@ input[type="radio"][id="camping"]:checked ~ .packs, input[type="radio"][id="camp
   height: 0;
   padding: 0;
   margin: 0;
-  opacity: 0; }
+  opacity: 0;
+  display: none; }
 
 input[type="radio"][id="foodandh20"]:checked + label {
   background-color: #69b1ad; }
@@ -1102,7 +919,8 @@ input[type="radio"][id="foodandh20"]:checked ~ .packs, input[type="radio"][id="f
   height: 0;
   padding: 0;
   margin: 0;
-  opacity: 0; }
+  opacity: 0;
+  display: none; }
 
 input[type="radio"][id="daytrips"]:checked + label {
   background-color: #69b1ad; }
@@ -1112,7 +930,8 @@ input[type="radio"][id="daytrips"]:checked ~ .overnights, input[type="radio"][id
   height: 0;
   padding: 0;
   margin: 0;
-  opacity: 0; }
+  opacity: 0;
+  display: none; }
 
 input[type="radio"][id="overnights"]:checked + label {
   background-color: #69b1ad; }
@@ -1122,7 +941,8 @@ input[type="radio"][id="overnights"]:checked ~ .daytrips, input[type="radio"][id
   height: 0;
   padding: 0;
   margin: 0;
-  opacity: 0; }
+  opacity: 0;
+  display: none; }
 
 input[type="radio"][id="loops"]:checked + label {
   background-color: #69b1ad; }
@@ -1132,7 +952,8 @@ input[type="radio"][id="loops"]:checked ~ .daytrips, input[type="radio"][id="loo
   height: 0;
   padding: 0;
   margin: 0;
-  opacity: 0; }
+  opacity: 0;
+  display: none; }
 
 input[type="radio"][id="thru"]:checked + label {
   background-color: #69b1ad; }
@@ -1142,7 +963,8 @@ input[type="radio"][id="thru"]:checked ~ .daytrips, input[type="radio"][id="thru
   height: 0;
   padding: 0;
   margin: 0;
-  opacity: 0; }
+  opacity: 0;
+  display: none; }
 
 input[type="radio"][id="yourstories"]:checked + label {
   background-color: #69b1ad; }
@@ -1152,7 +974,8 @@ input[type="radio"][id="yourstories"]:checked ~ .mediaandnews {
   height: 0;
   padding: 0;
   margin: 0;
-  opacity: 0; }
+  opacity: 0;
+  display: none; }
 
 input[type="radio"][id="mediaandnews"]:checked + label {
   background-color: #69b1ad; }
@@ -1162,7 +985,8 @@ input[type="radio"][id="mediaandnews"]:checked ~ .yourstories {
   height: 0;
   padding: 0;
   margin: 0;
-  opacity: 0; }
+  opacity: 0;
+  display: none; }
 
 @font-face {
   font-family: 'Moonshiner-Regular';
@@ -1230,6 +1054,19 @@ a:focus {
 @media (max-width: 530px) {
   .hero .caption h2 {
     font-size: 15px; } }
+@media (max-width: 830px) {
+  .hero2 .caption h2 {
+    font-size: 30px; } }
+@media (max-width: 630px) {
+  .hero2 .caption h2 {
+    font-size: 25px; }
+  .hero2 .caption h3 {
+    font-size: 15px; } }
+@media (max-width: 530px) {
+  .hero2 .caption h2 {
+    font-size: 25px; }
+  .hero2 .caption h3 {
+    font-size: 13px; } }
 @media (max-width: 830px) {
   #logo-small {
     display: block;

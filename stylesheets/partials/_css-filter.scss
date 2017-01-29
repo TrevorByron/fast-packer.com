@@ -59,6 +59,7 @@ input[type="radio"][id="packs"]:checked ~ .camping, input[type="radio"][id="pack
   padding:0;
   margin:0;
   opacity:0;
+  display: none;
 }
 input[type="radio"][id="camping"]:checked + label {
     background-color:rgba(105, 177, 173, 1);
@@ -69,6 +70,7 @@ input[type="radio"][id="camping"]:checked ~ .packs, input[type="radio"][id="camp
   padding:0;
   margin:0;
   opacity:0;
+    display: none;
 }
 input[type="radio"][id="foodandh20"]:checked + label {
     background-color:rgba(105, 177, 173, 1);
@@ -79,6 +81,7 @@ input[type="radio"][id="foodandh20"]:checked ~ .packs, input[type="radio"][id="f
   padding:0;
   margin:0;
   opacity:0;
+    display: none;
 }
 
 // Route Filtered
@@ -92,6 +95,7 @@ input[type="radio"][id="daytrips"]:checked ~ .overnights, input[type="radio"][id
   padding:0;
   margin:0;
   opacity:0;
+  display: none;
 }
 input[type="radio"][id="overnights"]:checked + label {
     background-color:rgba(105, 177, 173, 1);
@@ -102,6 +106,7 @@ input[type="radio"][id="overnights"]:checked ~ .daytrips, input[type="radio"][id
   padding:0;
   margin:0;
   opacity:0;
+    display: none;
 }
 input[type="radio"][id="loops"]:checked + label {
     background-color:rgba(105, 177, 173, 1);
@@ -112,6 +117,7 @@ input[type="radio"][id="loops"]:checked ~ .daytrips, input[type="radio"][id="loo
   padding:0;
   margin:0;
   opacity:0;
+    display: none;
 }
 
 input[type="radio"][id="thru"]:checked + label {
@@ -123,6 +129,7 @@ input[type="radio"][id="thru"]:checked ~ .daytrips, input[type="radio"][id="thru
   padding:0;
   margin:0;
   opacity:0;
+    display: none;
 }
 
 // Stories Filtered
@@ -135,6 +142,7 @@ input[type="radio"][id="yourstories"]:checked ~ .mediaandnews {
   padding:0;
   margin:0;
   opacity:0;
+    display: none;
 }
 input[type="radio"][id="mediaandnews"]:checked + label {
     background-color:rgba(105, 177, 173, 1);
@@ -145,4 +153,5 @@ input[type="radio"][id="mediaandnews"]:checked ~ .yourstories {
   padding:0;
   margin:0;
   opacity:0;
+    display: none;
 }

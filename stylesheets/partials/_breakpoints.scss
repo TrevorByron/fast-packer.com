@@ -29,6 +29,46 @@
   }
 
 
+
+  @media (max-width: 830px) {
+      .hero2 {
+      .caption {
+        h2 {
+          font-size: 30px;
+        }
+      }
+    }
+    }
+    @media (max-width: 630px) {
+        .hero2 {
+        .caption {
+          h2 {
+            font-size: 25px;
+          }
+          h3 {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    @media (max-width: 530px) {
+        .hero2 {
+        .caption {
+          h2 {
+            font-size: 25px;
+          }
+          h3 {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+
+
+
+
+
+
 // Header Breakpoints
 
 @media (max-width: 830px) {
