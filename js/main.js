@@ -74,7 +74,7 @@ $(document).ready(function(){
 });
 
 
-// hero
+// Parallax
 
 
 $(window).scroll(function () {

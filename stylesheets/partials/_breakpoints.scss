@@ -24,6 +24,7 @@
       .caption {
         h2 {
           font-size: 15px;
+
         }
       }
     }
@@ -56,6 +57,7 @@
     @media (max-width: 530px) {
         .hero2 {
         .caption {
+          margin: 90px 5% 20px 5%;
           h2 {
             font-size: 25px;
           }
