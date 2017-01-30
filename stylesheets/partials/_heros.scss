@@ -142,9 +142,10 @@ background-color: #091c0e;
 // Routes
 
 .route-hero {
-background: url(../images/Unsplash/wooded-trail.jpg) fixed  no-repeat;
+background: url(../images/Unsplash/wooded-trail.jpg) no-repeat;
 background-size: cover;
-background-position: center;
+position: fixed;
+
 
 }
 
@@ -159,8 +160,9 @@ background-position: center;
 }
 // gear-review1
 .nemo-hero {
-    background: url(../images/gear/pad-close.jpg) fixed  no-repeat;
+    background: url(../images/gear/pad-close.jpg) no-repeat;
     background-size: cover;
+    position: fixed;
 
 }
 // gear-review2

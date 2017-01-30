@@ -205,9 +205,9 @@ header {
       font-weight: 400; }
 
 .route-hero {
-  background: url(../images/Unsplash/wooded-trail.jpg) fixed no-repeat;
+  background: url(../images/Unsplash/wooded-trail.jpg) no-repeat;
   background-size: cover;
-  background-position: center; }
+  position: fixed; }
 
 .gear-hero {
   background: url(../images/gear/press-everything.jpg) fixed no-repeat;
@@ -215,8 +215,9 @@ header {
   background-position: center; }
 
 .nemo-hero {
-  background: url(../images/gear/pad-close.jpg) fixed no-repeat;
-  background-size: cover; }
+  background: url(../images/gear/pad-close.jpg) no-repeat;
+  background-size: cover;
+  position: fixed; }
 
 .ospray-hero {
   background: url(../images/gear/pack-front.jpg) fixed no-repeat;
