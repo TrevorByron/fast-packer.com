@@ -47,19 +47,16 @@ background-color: #091c0e;
 
   }
 
-  .caption {
-    padding: 20px 30px;
-    border: 5px solid white;
-    text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
-    height: auto;
-    color: white;
-    background-color: rgba(86, 86, 86, .4);
-    display: inline-block;
-    max-width: 650px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin: 25vh 5% 20px 5%;
+    .caption {
+      padding: 20px 30px;
+      text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
+      color: white;
+      display: inline-block;
+      max-width: 650px;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 0 auto;
+    margin: 160px 5% 20px 5%;
 
 
     a {

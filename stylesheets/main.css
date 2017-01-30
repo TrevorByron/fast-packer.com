@@ -55,10 +55,16 @@ header {
     letter-spacing: 2px; } }
 @media (max-width: 630px) {
   .hero .caption h2 {
-    font-size: 20px; } }
+    font-size: 25px; }
+  .hero .caption h3 {
+    font-size: 15px; } }
 @media (max-width: 530px) {
-  .hero .caption h2 {
-    font-size: 18px; } }
+  .hero .caption {
+    margin: 150px 5% 20px 5%; }
+    .hero .caption h2 {
+      font-size: 20px; }
+    .hero .caption h3 {
+      font-size: 13px; } }
 @media (max-width: 830px) {
   .hero2 .caption h2 {
     font-size: 30px;
@@ -138,17 +144,14 @@ header {
     background-size: cover; }
   .hero .caption {
     padding: 20px 30px;
-    border: 5px solid white;
     text-shadow: 1px 1px 2px rgba(33, 33, 33, 0.6);
-    height: auto;
     color: white;
-    background-color: rgba(86, 86, 86, 0.4);
     display: inline-block;
     max-width: 650px;
     text-align: center;
     text-transform: uppercase;
     margin: 0 auto;
-    margin: 25vh 5% 20px 5%; }
+    margin: 160px 5% 20px 5%; }
     .hero .caption a {
       color: white;
       text-decoration: none; }
@@ -897,10 +900,16 @@ h4 {
     letter-spacing: 2px; } }
 @media (max-width: 630px) {
   .hero .caption h2 {
-    font-size: 20px; } }
+    font-size: 25px; }
+  .hero .caption h3 {
+    font-size: 15px; } }
 @media (max-width: 530px) {
-  .hero .caption h2 {
-    font-size: 18px; } }
+  .hero .caption {
+    margin: 150px 5% 20px 5%; }
+    .hero .caption h2 {
+      font-size: 20px; }
+    .hero .caption h3 {
+      font-size: 13px; } }
 @media (max-width: 830px) {
   .hero2 .caption h2 {
     font-size: 30px;
