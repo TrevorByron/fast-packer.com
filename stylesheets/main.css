@@ -428,6 +428,9 @@ img {
 .slick-next {
   right: 0; }
 
+.slick-current:focus {
+  outline: none; }
+
 #stats {
   position: relative;
   top: 20px; }

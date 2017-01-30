@@ -211,6 +211,9 @@ img{
 .slick-next{
 	right: 0;
 }
+.slick-current:focus {
+  outline: none;
+}
 // specific section-banners
 #stats {
   position: relative;
