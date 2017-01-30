@@ -198,7 +198,7 @@ h3 {
 .stats {
   h6 {
     color: white;
-    font-size: 25px;
+    font-size: 24px;
     position: relative;
     top: 20px;
     background-color: $red;
@@ -209,6 +209,7 @@ h3 {
     width: 100%;
     letter-spacing: 5px;
     margin: 0;
+    font-weight: 400;
   }
 
 
@@ -263,15 +264,16 @@ h3 {
   padding-bottom: 90px;
   h6 {
     color: white;
-    font-size: 25px;
+    font-size: 24px;
     position: relative;
-    top: -68px;
+    top: -115px;
     background-color: $red;
     display: inline-block;
     padding: 5px 10px;
     font-family: 'Lato';
     max-width: 400px;
     width: 100%;
+    font-weight: 400;
   }
 }
 
@@ -314,7 +316,7 @@ img{
 }
 #map{
   color: white;
-  font-size: 25px;
+  font-size: 24px;
   position: relative;
   top: -20px;
   background-color: $red;
@@ -323,6 +325,7 @@ img{
   margin: 0 auto;
   padding: 5px 10px;
   font-family: 'Lato';
+  font-weight: 400;
 }
 
 iframe {
@@ -454,11 +457,13 @@ background: url(../images/gear/Square-gear/filter.jpg);
       border-radius: 30px;
       height: 50px;
 
+
       h4{
       display: inline-block;
       margin: 0;
       letter-spacing: 5px;
       font-size: 15px;
+      font-weight: 400;
       }
     }
 
@@ -502,6 +507,7 @@ background: url(../images/gear/Square-gear/filter.jpg);
   margin: 0;
   letter-spacing: 3px;
   font-size: 15px;
+  font-weight: 400;
 
 }
 }

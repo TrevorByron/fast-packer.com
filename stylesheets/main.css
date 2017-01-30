@@ -5,7 +5,7 @@
 
 header {
   text-shadow: 1px 1px 1px rgba(33, 33, 33, 0.4);
-  z-index: 1;
+  z-index: 101;
   position: fixed;
   top: 0;
   width: 100%;
@@ -13,21 +13,20 @@ header {
   background: linear-gradient(rgba(22, 22, 22, 0.3), transparent);
   font-family: 'Lato';
   font-weight: 400;
-  padding: 5px 10px 24px;
-  min-height: 60px;
-  max-height: 90px; }
+  padding: 5px 10px 28px; }
   header img {
     width: 200px;
-    position: relative;
-    top: -14px;
-    margin-top: 0; }
+    margin-top: 0;
+    margin-bottom: 10px; }
   header nav {
     text-align: center;
     width: 100%;
     margin: 0 auto; }
     header nav ul {
       margin: 0 auto;
-      padding: 0; }
+      padding: 0;
+      position: relative;
+      top: 20px; }
       header nav ul li {
         text-align: center;
         display: inline-block;
@@ -35,9 +34,7 @@ header {
         margin-right: 35px;
         font-size: 15px;
         color: white;
-        transition: 0.3s;
-        position: relative;
-        top: 20px; }
+        transition: 0.3s; }
       header nav ul li:hover {
         text-decoration: none;
         color: grey; }
@@ -423,7 +420,7 @@ header {
 
 .stats h6 {
   color: white;
-  font-size: 25px;
+  font-size: 24px;
   position: relative;
   top: 20px;
   background-color: #6B0F1A;
@@ -433,7 +430,8 @@ header {
   max-width: 400px;
   width: 100%;
   letter-spacing: 5px;
-  margin: 0; }
+  margin: 0;
+  font-weight: 400; }
 
 .details {
   font-family: 'Lato';
@@ -470,15 +468,16 @@ header {
   padding-bottom: 90px; }
   .photo-gallery h6 {
     color: white;
-    font-size: 25px;
+    font-size: 24px;
     position: relative;
-    top: -68px;
+    top: -115px;
     background-color: #6B0F1A;
     display: inline-block;
     padding: 5px 10px;
     font-family: 'Lato';
     max-width: 400px;
-    width: 100%; }
+    width: 100%;
+    font-weight: 400; }
 
 .slider-for {
   width: 90%;
@@ -516,7 +515,7 @@ img {
 
 #map {
   color: white;
-  font-size: 25px;
+  font-size: 24px;
   position: relative;
   top: -20px;
   background-color: #6B0F1A;
@@ -524,7 +523,8 @@ img {
   width: 100%;
   margin: 0 auto;
   padding: 5px 10px;
-  font-family: 'Lato'; }
+  font-family: 'Lato';
+  font-weight: 400; }
 
 iframe {
   max-width: 1000px;
@@ -627,7 +627,8 @@ iframe {
         display: inline-block;
         margin: 0;
         letter-spacing: 5px;
-        font-size: 15px; }
+        font-size: 15px;
+        font-weight: 400; }
     .gear-details .gear-links .buy:hover {
       background-color: grey; }
 
@@ -654,7 +655,8 @@ iframe {
   .send-to-route h4 {
     margin: 0;
     letter-spacing: 3px;
-    font-size: 15px; }
+    font-size: 15px;
+    font-weight: 400; }
 
 .send-to-route:hover {
   background-color: grey; }
@@ -873,14 +875,18 @@ slick-dots li.slick-active button:before {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
 input[type="radio"] {
   display: none; }
 
 label {
-  width: 25%;
-  max-width: 200px;
+  width: 23%;
+  max-width: 180px;
   float: left;
   text-align: center;
   background-color: #555;
@@ -888,13 +894,13 @@ label {
   color: white;
   padding: 0.5%;
   margin: 0.5%;
-  margin-bottom: 30px;
   cursor: pointer;
-  font-weight: 100;
+  font-weight: 400;
   font-family: 'Lato';
   transition: .5s;
   box-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2);
-  min-width: 155px; }
+  min-width: 155px;
+  text-transform: uppercase; }
 
 label:hover {
   background-color: #69b1ad; }
@@ -904,7 +910,8 @@ label:hover {
 
 .tile {
   width: 300px;
-  margin: 1%; }
+  margin: 1%;
+  margin-top: 30px; }
 
 .css-filter {
   margin-bottom: 60px; }
@@ -1031,6 +1038,11 @@ a:hover {
 
 a:focus {
   outline: none; }
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 24px; }
 
 /* Header */
 .footer {

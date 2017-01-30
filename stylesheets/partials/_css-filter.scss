@@ -6,6 +6,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 
@@ -13,8 +17,8 @@ input[type="radio"] {
     display:none;
 }
 label {
-  width:25%;
-  max-width: 200px;
+  width:23%;
+  max-width: 180px;
   float:left;
   text-align:center;
   background-color: #555;
@@ -22,13 +26,15 @@ label {
   color: white;
   padding:0.5%;
   margin:0.5%;
-  margin-bottom:30px;
   cursor:pointer;
-  font-weight: 100;
+  font-weight: 400;
   font-family: 'Lato';
   transition: .5s;
   box-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
   min-width: 155px;
+  text-transform: uppercase;
+
+
 }
 label:hover {
     background-color:rgba(105, 177, 173, 1);
@@ -40,6 +46,7 @@ label:hover {
 .tile {
   width:300px;
   margin:1%;
+  margin-top: 30px;
 
 }
 .css-filter {
