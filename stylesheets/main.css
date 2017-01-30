@@ -170,8 +170,7 @@ header {
     padding-top: 10px;
     box-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2);
     margin: 0 auto;
-    transition: .5s;
-    margin-top: 30px; }
+    transition: .5s; }
     .hero .hero-btn h2 {
       display: inline-block;
       border-radius: 30px;
