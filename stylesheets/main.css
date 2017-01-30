@@ -184,8 +184,6 @@ header {
     color: #69B1AD; }
 
 .hero2 {
-  background-position: center;
-  background-size: cover;
   height: 70vh; }
   .hero2 .caption {
     padding: 20px 30px;
