@@ -120,19 +120,19 @@ header {
   text-align: center; }
   .hero #welcome {
     background-size: cover;
-    background: url(../images/Unsplash/trail-runners.jpg) fixed no-repeat;
+    background: url(../images/Unsplash/trail-runners.jpg) no-repeat;
     height: 100vh; }
   .hero #featured-route {
-    background: url(../images/Unsplash/los-padres.jpg) fixed no-repeat;
+    background: url(../images/Unsplash/los-padres.jpg) no-repeat;
     height: 100vh;
     background-size: cover;
     background-position: center; }
   .hero #featured-review {
-    background: url(../images/gear/pad-close.jpg) fixed no-repeat;
+    background: url(../images/gear/pad-close.jpg) no-repeat;
     height: 100vh;
     background-size: cover; }
   .hero #featured-story {
-    background: url(../images/NM/feet3.jpg) fixed no-repeat;
+    background: url(../images/NM/feet3.jpg) no-repeat;
     height: 100vh;
     background-size: cover; }
   .hero .caption {
@@ -207,62 +207,74 @@ header {
 .route-hero {
   background: url(../images/Unsplash/wooded-trail.jpg) no-repeat;
   background-size: cover;
-  position: fixed; }
+  position: fixed;
+  background-position: center; }
 
 .gear-hero {
-  background: url(../images/gear/press-everything.jpg) fixed no-repeat;
+  background: url(../images/gear/press-everything.jpg) no-repeat;
   background-size: cover;
+  position: fixed;
   background-position: center; }
 
 .nemo-hero {
   background: url(../images/gear/pad-close.jpg) no-repeat;
   background-size: cover;
-  position: fixed; }
+  position: fixed;
+  background-position: center; }
 
 .ospray-hero {
-  background: url(../images/gear/pack-front.jpg) fixed no-repeat;
+  background: url(../images/gear/pack-front.jpg) no-repeat;
   background-size: cover;
-  background-position: bottom; }
+  background-position: bottom;
+  position: fixed; }
 
 .sawyer-hero {
-  background: url(../images/gear/filter-alone.jpg) fixed no-repeat;
+  background: url(../images/gear/filter-alone.jpg) no-repeat;
   background-size: cover;
-  background-position: bottom; }
+  background-position: bottom;
+  position: fixed; }
 
 .planning-hero {
-  background: url(../images/Unsplash/Night-camping.jpg) fixed no-repeat;
+  background: url(../images/Unsplash/Night-camping.jpg) no-repeat;
   background-size: cover;
-  background-position: bottom; }
+  background-position: bottom;
+  position: fixed; }
 
 .route1-hero {
-  background: url(../images/Unsplash/Austin.jpg) fixed no-repeat;
+  background: url(../images/Unsplash/Austin.jpg) no-repeat;
   background-size: cover;
+  position: fixed;
   background-position: center; }
 
 .route2-hero {
-  background: url(../images/NM/feet.jpg) fixed no-repeat;
+  background: url(../images/NM/feet.jpg) no-repeat;
   background-size: cover;
+  position: fixed;
   background-position: center; }
 
 .route3-hero {
-  background: url(../images/Unsplash/los-padres.jpg) fixed no-repeat;
+  background: url(../images/Unsplash/los-padres.jpg) no-repeat;
   background-size: cover;
+  position: fixed;
   background-position: center; }
 
 .stories-hero {
-  background: url(../images/Unsplash/facing-wilderness.jpg) fixed no-repeat;
+  background: url(../images/Unsplash/facing-wilderness.jpg) no-repeat;
   background-size: cover;
-  background-position: bottom; }
+  background-position: bottom;
+  position: fixed; }
 
 .story1-hero {
-  background: url(../images/stories/kiliannat.jpg) fixed no-repeat;
+  background: url(../images/stories/kiliannat.jpg) no-repeat;
   background-size: cover;
-  background-position: bottom; }
+  background-position: bottom;
+  position: fixed; }
 
 .story2-hero {
-  background: url(../images/NM/feet3.jpg) fixed no-repeat;
+  background: url(../images/NM/feet3.jpg) no-repeat;
   background-size: cover;
-  background-position: bottom; }
+  background-position: bottom;
+  position: fixed; }
 
 .main {
   background-color: white; }

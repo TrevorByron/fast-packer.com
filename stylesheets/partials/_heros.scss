@@ -10,33 +10,37 @@ background-color: #091c0e;
 
   #welcome {
     background-size: cover;
-    background: url(../images/Unsplash/trail-runners.jpg) fixed  no-repeat;
+    background: url(../images/Unsplash/trail-runners.jpg)  no-repeat;
   // padding:15% 10% 10% 10%;
   height: 100vh;
 
 
+
   }
   #featured-route {
-    background: url(../images/Unsplash/los-padres.jpg) fixed  no-repeat;
+    background: url(../images/Unsplash/los-padres.jpg) no-repeat;
 // padding:15% 10% 10% 10%;
   height: 100vh;
     background-size: cover;
     background-position: center;
 
+
   }
   #featured-review {
-    background: url(../images/gear/pad-close.jpg) fixed no-repeat;
+    background: url(../images/gear/pad-close.jpg) no-repeat;
     // padding:15% 10% 10% 10%;
       height: 100vh;
     background-size: cover;
 
 
+
   }
   #featured-story{
-    background: url(../images/NM/feet3.jpg) fixed no-repeat;
+    background: url(../images/NM/feet3.jpg) no-repeat;
   // padding:15% 10% 10% 10%;
     height: 100vh;
     background-size: cover;
+  
 
 
   }
@@ -145,6 +149,7 @@ background-color: #091c0e;
 background: url(../images/Unsplash/wooded-trail.jpg) no-repeat;
 background-size: cover;
 position: fixed;
+background-position: center;
 
 
 }
@@ -153,8 +158,9 @@ position: fixed;
 
 // Gear
 .gear-hero {
-    background: url(../images/gear/press-everything.jpg) fixed  no-repeat;
+    background: url(../images/gear/press-everything.jpg)  no-repeat;
     background-size: cover;
+    position: fixed;
     background-position: center;
 
 }
@@ -163,32 +169,39 @@ position: fixed;
     background: url(../images/gear/pad-close.jpg) no-repeat;
     background-size: cover;
     position: fixed;
+    background-position: center;
 
 }
 // gear-review2
 .ospray-hero {
 
-    background: url(../images/gear/pack-front.jpg) fixed  no-repeat;
+    background: url(../images/gear/pack-front.jpg) no-repeat;
     background-size: cover;
     background-position: bottom;
+    position: fixed;
+
 
 }
 
 // gear-review3
 .sawyer-hero {
 
-    background: url(../images/gear/filter-alone.jpg) fixed  no-repeat;
+    background: url(../images/gear/filter-alone.jpg) no-repeat;
     background-size: cover;
     background-position: bottom;
+    position: fixed;
+
 
 }
 
 // Planning
 
 .planning-hero {
-    background: url(../images/Unsplash/Night-camping.jpg) fixed  no-repeat;
+    background: url(../images/Unsplash/Night-camping.jpg) no-repeat;
     background-size: cover;
     background-position: bottom;
+    position: fixed;
+
 
 }
 
@@ -196,24 +209,27 @@ position: fixed;
 // route1
 .route1-hero {
 
-    background: url(../images/Unsplash/Austin.jpg) fixed no-repeat;
+    background: url(../images/Unsplash/Austin.jpg) no-repeat;
     background-size: cover;
+    position: fixed;
     background-position: center;
 
 }
 // route2
 .route2-hero {
 
-    background: url(../images/NM/feet.jpg) fixed no-repeat;
+    background: url(../images/NM/feet.jpg) no-repeat;
     background-size: cover;
+    position: fixed;
     background-position: center;
 
 }
 // route3
 .route3-hero {
 
-    background: url(../images/Unsplash/los-padres.jpg) fixed no-repeat;
+    background: url(../images/Unsplash/los-padres.jpg) no-repeat;
     background-size: cover;
+    position: fixed;
     background-position: center;
 
 }
@@ -223,9 +239,11 @@ position: fixed;
 // S T O R I E S
 .stories-hero {
 
-    background: url(../images/Unsplash/facing-wilderness.jpg) fixed no-repeat;
+    background: url(../images/Unsplash/facing-wilderness.jpg) no-repeat;
     background-size: cover;
-    background-position: bottom;;
+    background-position: bottom;
+    position: fixed;
+
 
 }
 
@@ -233,17 +251,19 @@ position: fixed;
 // Story 1
 .story1-hero {
 
-    background: url(../images/stories/kiliannat.jpg) fixed no-repeat;
+    background: url(../images/stories/kiliannat.jpg) no-repeat;
     background-size: cover;
-    background-position: bottom;;
+    background-position: bottom;
+    position: fixed;
 
 }
 
 // Story 2
 .story2-hero {
 
-    background: url(../images/NM/feet3.jpg) fixed no-repeat;
+    background: url(../images/NM/feet3.jpg) no-repeat;
     background-size: cover;
-    background-position: bottom;;
+    background-position: bottom;
+    position: fixed;
 
 }
