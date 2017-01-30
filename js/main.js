@@ -13,6 +13,17 @@ $(function(){
         }
     });
 });
+$(function(){
+    $(document).on('touchmove',function() {
+        if ($(this).scrollTop() > 1) {
+            $('.second-nav').css('visibility','visible');
+            $('.second-nav').fadeIn('slow');
+        }
+        else {
+            $('.second-nav').fadeOut('fast');
+        }
+    });
+});
 
 
 
