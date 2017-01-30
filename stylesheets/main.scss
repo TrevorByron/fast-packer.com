@@ -47,6 +47,47 @@ h3 {
     font-weight: 400;
     font-size: 24px;
 }
+h4 {
+  font-size: 30px;
+    font-weight: 700;
+}
+.margin-bottom {
+  margin-bottom: 60px;
+}
+
+.text-shadow {
+      text-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2);
+}
+
+.letter-spacing {
+  letter-spacing: 10px;
+}
+.white {
+  color: white;
+}
+
+.background-grey-box {
+  margin: 0;
+  padding: 125px 15%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(033, 033, 033, .6);
+  background-color: rgba(033, 033, 033, .8);
+  height: 300px;
+  transition: .5s;
+  color: white
+}
+.box:hover h3 {
+  background-color: rgba(033, 033, 033, .0);
+  text-shadow: none;
+  color: rgba(255, 255, 255, 0);
+  text-shadow: 1px 1px 1px rgba(033, 033, 033, 0);
+  }
+
+  .underbox {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+  }
 
 /* Header */
 
