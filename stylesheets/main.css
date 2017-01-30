@@ -188,7 +188,7 @@ header {
     color: #69B1AD; }
 
 .hero2 {
-  padding: 15% 5%; }
+  padding: 10% 5%; }
   .hero2 .caption {
     padding: 20px 30px;
     text-shadow: 1px 1px 2px rgba(33, 33, 33, 0.6);
@@ -198,7 +198,7 @@ header {
     text-align: center;
     text-transform: uppercase;
     margin: 0 auto;
-    margin: 120px 5% 20px 5%; }
+    margin: 90px 5% 20px 5%; }
     .hero2 .caption h2 {
       font-weight: 700;
       font-size: 35px;
@@ -271,13 +271,11 @@ header {
 .story1-hero {
   background: url(../images/stories/kiliannat.jpg) no-repeat;
   background-size: cover;
-  background-position: bottom;
   position: fixed; }
 
 .story2-hero {
   background: url(../images/NM/feet3.jpg) no-repeat;
   background-size: cover;
-  background-position: bottom;
   position: fixed; }
 
 .main {
