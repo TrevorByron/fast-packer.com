@@ -122,7 +122,7 @@ header {
     background-size: cover;
     background: url(../images/Unsplash/trail-runners.jpg) no-repeat;
     height: 100vh;
-    background-position: top; }
+    background-size: cover; }
   .hero #featured-route {
     background: url(../images/Unsplash/los-padres.jpg) no-repeat;
     height: 100vh;
@@ -133,7 +133,7 @@ header {
     height: 100vh;
     background-size: cover; }
   .hero #featured-story {
-    background: url(../images/NM/feet3.jpg) fixed no-repeat;
+    background: url(../images/NM/feet3.jpg) no-repeat;
     height: 100vh;
     background-size: cover; }
   .hero .caption {
