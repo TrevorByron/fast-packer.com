@@ -64,7 +64,10 @@ header {
     .hero .caption h2 {
       font-size: 23px; }
     .hero .caption h3 {
-      font-size: 13px; } }
+      font-size: 13px; }
+
+  h4 {
+    font-size: 20px; } }
 @media (max-width: 830px) {
   .hero2 .caption h2 {
     font-size: 30px;
@@ -902,7 +905,10 @@ h4 {
     .hero .caption h2 {
       font-size: 23px; }
     .hero .caption h3 {
-      font-size: 13px; } }
+      font-size: 13px; }
+
+  h4 {
+    font-size: 20px; } }
 @media (max-width: 830px) {
   .hero2 .caption h2 {
     font-size: 30px;
