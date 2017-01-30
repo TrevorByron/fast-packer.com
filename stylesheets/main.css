@@ -210,7 +210,9 @@ header {
       font-weight: 400; }
 
 .route-hero {
-  background: url(../images/Unsplash/wooded-trail.jpg) fixed no-repeat; }
+  background: url(../images/Unsplash/wooded-trail.jpg) fixed no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 .gear-hero {
   background: url(../images/gear/press-everything.jpg) fixed no-repeat;
