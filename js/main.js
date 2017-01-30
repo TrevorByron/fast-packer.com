@@ -14,7 +14,7 @@ $(function(){
     });
 });
 $(function(){
-    $(document).on('touchmove',function() {
+    $(document).on('touch',function() {
         if ($(this).scrollTop() > 1) {
             $('.second-nav').css('visibility','visible');
             $('.second-nav').fadeIn('slow');
@@ -47,14 +47,13 @@ $(document).ready(function(){
 
 // Parallax
 
-
-$(window).scroll(function () {
-   $('.slow').css({
+if( $(window).width() > 900) {
+  $(window).scroll(function () {
+    $('.slow').css({
       'top' : +($(this).scrollTop()/2)+"px"
-   });
-
-});
-
+    });
+  });
+}
 
 
 
