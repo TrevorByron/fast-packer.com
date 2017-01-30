@@ -13,6 +13,7 @@ background-color: #091c0e;
     background: url(../images/Unsplash/trail-runners.jpg)  no-repeat;
   // padding:15% 10% 10% 10%;
   height: 100vh;
+  background-position: top;
 
 
 
@@ -23,6 +24,7 @@ background-color: #091c0e;
   height: 100vh;
     background-size: cover;
     background-position: center;
+
 
 
   }
@@ -36,11 +38,11 @@ background-color: #091c0e;
 
   }
   #featured-story{
-    background: url(../images/NM/feet3.jpg) no-repeat;
+    background: url(../images/NM/feet3.jpg) fixed no-repeat;
   // padding:15% 10% 10% 10%;
     height: 100vh;
     background-size: cover;
-  
+
 
 
   }
@@ -114,7 +116,7 @@ background-color: #091c0e;
 // Heros accross all pages but home
 
 .hero2 {
-      height: 70vh;
+     padding: 15% 10%;
   .caption {
     padding: 20px 30px;
     text-shadow: 1px 1px 2px rgba(033, 033, 033, .6);
