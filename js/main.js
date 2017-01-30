@@ -3,7 +3,7 @@
 // secondary nav
 
 $(function(){
-    $(document).scroll(function() {
+    $(document).on('scroll',function() {
         if ($(this).scrollTop() > 1) {
             $('.second-nav').css('visibility','visible');
             $('.second-nav').fadeIn('slow');
