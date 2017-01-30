@@ -62,7 +62,7 @@ header {
   .hero .caption {
     margin: 150px 5% 20px 5%; }
     .hero .caption h2 {
-      font-size: 20px; }
+      font-size: 23px; }
     .hero .caption h3 {
       font-size: 13px; } }
 @media (max-width: 830px) {
@@ -127,20 +127,16 @@ header {
   .hero #welcome {
     background-size: cover;
     background: url(../images/Unsplash/trail-runners.jpg) no-repeat;
-    height: 100vh;
     background-size: cover; }
   .hero #featured-route {
     background: url(../images/Unsplash/los-padres.jpg) no-repeat;
-    height: 100vh;
     background-size: cover;
     background-position: center; }
   .hero #featured-review {
     background: url(../images/gear/pad-close.jpg) no-repeat;
-    height: 100vh;
     background-size: cover; }
   .hero #featured-story {
     background: url(../images/NM/feet3.jpg) no-repeat;
-    height: 100vh;
     background-size: cover; }
   .hero .caption {
     padding: 20px 30px;
@@ -905,7 +901,7 @@ h4 {
   .hero .caption {
     margin: 150px 5% 20px 5%; }
     .hero .caption h2 {
-      font-size: 20px; }
+      font-size: 23px; }
     .hero .caption h3 {
       font-size: 13px; } }
 @media (max-width: 830px) {

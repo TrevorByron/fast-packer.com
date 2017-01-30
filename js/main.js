@@ -55,6 +55,15 @@ if( $(window).width() > 900) {
   });
 }
 
+// height of hero
+
+
+    $('#welcome, #featured-route, #featured-review, #featured-story ').height($(window).height());
+
+
+
+
+
 
 
 $(document).ready(function(){
