@@ -1,9 +1,10 @@
 @import "../partials/colors";
 
 
+
+// This is accross all pages
 .main{
   background-color: white;
-
   .motivation {
     width: 100%;
     .triangle{
@@ -16,8 +17,9 @@
       border-right:33px solid transparent;
       border-top: 50px solid $red;
       }
-
    }
+
+// This is the photo navigation at the bottom of home page
 
 .secondary-nav {
   display: flex;
@@ -25,16 +27,6 @@
   margin: 0 auto;
   text-align: center;
   flex-wrap: wrap;
-  .box{
-    font-family: 'Lato', sans-serif;
-    width: 300px;
-    height: 300px;
-    background-color: grey;
-    color: white;
-    overflow: hidden;
-    transition: background-color 1s ease;
-
-  }
 
   #photo-routes {
     background: url(../images/Square/Square_0001_wooded-trail.jpg);
@@ -54,6 +46,7 @@
    }
   }
 
+// This is the little paragraph about the Fast-packer.com
 .about-FP {
   padding: 100px 20% 110px 20%;
   margin: 0 auto;
@@ -86,13 +79,10 @@ p {
   }
 }
 .planning-cl {
-  width: 28%;
-  min-width: 300px;
+  width: 300px;
   text-align: left;
     margin: 20px;
 }
-
-
 
 #link-stories {
   background: url(../images/Square/Square_0010_facing-wilderness.jpg);
@@ -105,20 +95,42 @@ p {
 #link-gear {
   background: url(../images/gear/Square-gear/press.jpg);
   background-size: cover;
-
 }
 
-// Route 2
+// ROUTES
+
+#route-mckinney{
+  background: url(../images/Square/Austin-sm.jpg);
+  background-size: contain;
+}
+
+#route-NM-4-days{
+  background: url(../images/Square/feet.jpg);
+  background-size: contain;
+}
+
+#route-sa-hotsprings{
+  background: url(../images/hotsprings.jpg);
+  background-size: contain;
+}
+
+#four-bush{
+  background: url(../images/Square/Square_0009_hamocks.jpg);
+  background-size: contain;
+}
+#slo-sb{
+  background: url(../images/Square/Square_0008_los-padres.jpg);
+  background-size: contain;
+}
+#pedernales{
+  background: url(../images/pedernales.png);
+  background-size: contain;
+}
+
+
+// Route
 #highlights {
   padding: 20px 15% 40px 15%;
-
-  a {
-    font-size: 20px;
-    color: $turquoise;
-  }
-  a:hover {
-      color: #333;
-  }
   p {
     text-align: left;
     line-height: 1.6;
@@ -127,26 +139,6 @@ p {
     font-size: 15px;
   }
 }
-
-.stats {
-  h6 {
-    color: white;
-    font-size: 24px;
-    position: relative;
-    top: 20px;
-    background-color: $red;
-    display: inline-block;
-    padding: 5px 10px;
-      font-family: 'Lato';
-    max-width: 400px;
-    width: 100%;
-    letter-spacing: 5px;
-    margin: 0;
-    font-weight: 400;
-  }
-
-
-}
 .details {
   font-family: 'Lato';
   padding: 80px 15% 40px 15%;
@@ -154,7 +146,6 @@ p {
   flex-wrap: wrap;
   justify-content: space-around;
   border-top: 1px solid #eee;
-
    p {
      font-size: 15px;
       font-weight: 300px;
@@ -162,28 +153,16 @@ p {
       line-height: 1.6;
    }
 
-  .fa {
-    font-size: 30px;
-    background-color: #555;
-    padding-top: 15px;
-    height: 60px;
-    width: 60px;
-    border-radius: 100%;
-    color: white;
-
-  }
   .detail {
     width: 270px;
     padding: 20px;
     a {
         color: $turquoise;
-
     }
     a:hover {
         color: #333;
     }
   }
-
 }
 
 
@@ -193,21 +172,7 @@ p {
 .photo-gallery {
   margin-top: 40px;
   background-color: #333;
-  padding-top: 40px;
   padding-bottom: 90px;
-  h6 {
-    color: white;
-    font-size: 24px;
-    position: relative;
-    top: -115px;
-    background-color: $red;
-    display: inline-block;
-    padding: 5px 10px;
-    font-family: 'Lato';
-    max-width: 400px;
-    width: 100%;
-    font-weight: 400;
-  }
 }
 
 .slider-for{
@@ -218,7 +183,6 @@ p {
 }
 img{
 	width: 100%;
-
 }
 .slider-nav{
   width: 90%;
@@ -247,19 +211,23 @@ img{
 .slick-next{
 	right: 0;
 }
-#map{
-  color: white;
-  font-size: 24px;
+// specific section-banners
+#stats {
+  position: relative;
+  top: 20px;
+}
+
+#photo-gallery{
   position: relative;
   top: -20px;
-  background-color: $red;
-  max-width: 400px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 5px 10px;
-  font-family: 'Lato';
-  font-weight: 400;
 }
+
+#map{
+  position: relative;
+  top: -77px;
+}
+
+// this is the embeded map
 
 iframe {
   max-width: 1000px;
@@ -270,6 +238,8 @@ iframe {
 
 
 // G E A R
+
+
 
 
 
@@ -309,7 +279,7 @@ background: url(../images/gear/Square-gear/filter.jpg);
     border-radius: 3px;
         box-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
   }
-}
+ }
 }
 
 .gear-details {
@@ -320,6 +290,20 @@ background: url(../images/gear/Square-gear/filter.jpg);
   justify-content: space-around;
   border-top: 1px solid #eee;
 
+  .fa {
+    font-size: 30px;
+  background-color: #555;
+  padding-top: 15px;
+  height: 45px;
+  width: 60px;
+  border-radius: 100%;
+  color: white;
+    float: left;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 25px;
+  }
+
    p {
      font-size: 15px;
       font-weight: 300px;
@@ -327,22 +311,9 @@ background: url(../images/gear/Square-gear/filter.jpg);
       line-height: 1.6;
    }
 
-  .fa {
-    font-size: 30px;
-    background-color: #555;
-    padding-top: 15px;
-    height: 60px;
-    width: 60px;
-    border-radius: 100%;
-    color: white;
-    float: left;
-    text-align: center;
-    margin: 20px;
-    margin-bottom: 25px;
 
-  }
   .tech-info {
-    width: 50%;
+    width: 45%;
     min-width: 300px;
   }
   .detail {
@@ -359,7 +330,7 @@ background: url(../images/gear/Square-gear/filter.jpg);
     }
   }
   .gear-links {
-    width: 50%;
+    width: 45%;
     min-width: 300px;
     padding: 40px;
     display: flex;
@@ -376,20 +347,14 @@ background: url(../images/gear/Square-gear/filter.jpg);
       margin: 0 auto;
     }
     .buy {
-      align-self: center;
-      color: white;
-      border-radius: 40px;
-      background-color: rgba(105, 177, 173, .8);
-      width: 200px;
-      padding-bottom: 10px;
-      padding-top: 10px;
-      box-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
-      margin: 0 auto;
-      transition: .5s;
-      margin-top: 30px;
-      border-radius: 30px;
-      height: 50px;
 
+  background-color: rgba(105, 177, 173, 0.8);
+  padding: 10px 15px;
+  box-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2);
+  margin: 0 auto;
+  transition: .5s;
+  margin-top: 30px;
+  border-radius: 30px;
 
       h4{
       display: inline-block;
@@ -402,6 +367,7 @@ background: url(../images/gear/Square-gear/filter.jpg);
 
     .buy:hover {
       background-color: grey;
+      color: white;
 
     }
   }
@@ -448,10 +414,4 @@ background: url(../images/gear/Square-gear/filter.jpg);
 .send-to-route:hover {
   background-color: grey;
 
-}
-
-.underbox {
-  font-size: 18px;
-  text-transform: uppercase;
-  font-family: 'Lato';
 }

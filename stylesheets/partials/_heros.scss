@@ -2,20 +2,11 @@
 
 
 
-.slow{
-  position: relative;
-  z-index: -1;
-}
 
 
 .hero{
 background-color: #091c0e;
   text-align: center;
-
-
-
-
-
 
   #welcome {
     background-size: cover;
@@ -81,11 +72,6 @@ background-color: #091c0e;
     }
 }
 
-
-
-
-
-
   li {
     list-style: none;
     margin: 0 auto;
@@ -104,13 +90,14 @@ background-color: #091c0e;
     margin-top: 30px;
 
 
+
     h2{
     display: inline-block;
     border-radius: 30px;
     margin: 0;
     letter-spacing: 3px;
     font-size: 15px;
-
+        font-weight: 400;
   }
   }
   .hero-btn:hover {
@@ -119,6 +106,8 @@ background-color: #091c0e;
   }
 }
 
+
+// Heros accross all pages but home
 
 .hero2 {
 

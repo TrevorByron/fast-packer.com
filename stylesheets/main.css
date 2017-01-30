@@ -115,10 +115,6 @@ header {
 @media (max-width: 830px) {
   button.slick-prev:before, button.slick-next:before {
     display: none; } }
-.slow {
-  position: relative;
-  z-index: -1; }
-
 .hero {
   background-color: #091c0e;
   text-align: center; }
@@ -181,7 +177,8 @@ header {
       border-radius: 30px;
       margin: 0;
       letter-spacing: 3px;
-      font-size: 15px; }
+      font-size: 15px;
+      font-weight: 400; }
   .hero .hero-btn:hover {
     background-color: rgba(255, 255, 255, 0.8);
     color: #69B1AD; }
@@ -287,14 +284,6 @@ header {
     margin: 0 auto;
     text-align: center;
     flex-wrap: wrap; }
-    .main .secondary-nav .box {
-      font-family: 'Lato', sans-serif;
-      width: 300px;
-      height: 300px;
-      background-color: grey;
-      color: white;
-      overflow: hidden;
-      transition: background-color 1s ease; }
     .main .secondary-nav #photo-routes {
       background: url(../images/Square/Square_0001_wooded-trail.jpg);
       background-size: contain; }
@@ -331,8 +320,7 @@ header {
     font-weight: 100; }
 
 .planning-cl {
-  width: 28%;
-  min-width: 300px;
+  width: 300px;
   text-align: left;
   margin: 20px; }
 
@@ -348,34 +336,38 @@ header {
   background: url(../images/gear/Square-gear/press.jpg);
   background-size: cover; }
 
+#route-mckinney {
+  background: url(../images/Square/Austin-sm.jpg);
+  background-size: contain; }
+
+#route-NM-4-days {
+  background: url(../images/Square/feet.jpg);
+  background-size: contain; }
+
+#route-sa-hotsprings {
+  background: url(../images/hotsprings.jpg);
+  background-size: contain; }
+
+#four-bush {
+  background: url(../images/Square/Square_0009_hamocks.jpg);
+  background-size: contain; }
+
+#slo-sb {
+  background: url(../images/Square/Square_0008_los-padres.jpg);
+  background-size: contain; }
+
+#pedernales {
+  background: url(../images/pedernales.png);
+  background-size: contain; }
+
 #highlights {
   padding: 20px 15% 40px 15%; }
-  #highlights a {
-    font-size: 20px;
-    color: #69B1AD; }
-  #highlights a:hover {
-    color: #333; }
   #highlights p {
     text-align: left;
     line-height: 1.6;
     text-indent: 50px;
     font-weight: 300;
     font-size: 15px; }
-
-.stats h6 {
-  color: white;
-  font-size: 24px;
-  position: relative;
-  top: 20px;
-  background-color: #6B0F1A;
-  display: inline-block;
-  padding: 5px 10px;
-  font-family: 'Lato';
-  max-width: 400px;
-  width: 100%;
-  letter-spacing: 5px;
-  margin: 0;
-  font-weight: 400; }
 
 .details {
   font-family: 'Lato';
@@ -389,14 +381,6 @@ header {
     font-weight: 300px;
     font-family: 'Raleway';
     line-height: 1.6; }
-  .details .fa {
-    font-size: 30px;
-    background-color: #555;
-    padding-top: 15px;
-    height: 60px;
-    width: 60px;
-    border-radius: 100%;
-    color: white; }
   .details .detail {
     width: 270px;
     padding: 20px; }
@@ -408,20 +392,7 @@ header {
 .photo-gallery {
   margin-top: 40px;
   background-color: #333;
-  padding-top: 40px;
   padding-bottom: 90px; }
-  .photo-gallery h6 {
-    color: white;
-    font-size: 24px;
-    position: relative;
-    top: -115px;
-    background-color: #6B0F1A;
-    display: inline-block;
-    padding: 5px 10px;
-    font-family: 'Lato';
-    max-width: 400px;
-    width: 100%;
-    font-weight: 400; }
 
 .slider-for {
   width: 90%;
@@ -457,18 +428,17 @@ img {
 .slick-next {
   right: 0; }
 
-#map {
-  color: white;
-  font-size: 24px;
+#stats {
   position: relative;
-  top: -20px;
-  background-color: #6B0F1A;
-  max-width: 400px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 5px 10px;
-  font-family: 'Lato';
-  font-weight: 400; }
+  top: 20px; }
+
+#photo-gallery {
+  position: relative;
+  top: -20px; }
+
+#map {
+  position: relative;
+  top: -77px; }
 
 iframe {
   max-width: 1000px;
@@ -511,16 +481,11 @@ iframe {
   flex-wrap: wrap;
   justify-content: space-around;
   border-top: 1px solid #eee; }
-  .gear-details p {
-    font-size: 15px;
-    font-weight: 300px;
-    font-family: 'Raleway';
-    line-height: 1.6; }
   .gear-details .fa {
     font-size: 30px;
     background-color: #555;
     padding-top: 15px;
-    height: 60px;
+    height: 45px;
     width: 60px;
     border-radius: 100%;
     color: white;
@@ -528,8 +493,13 @@ iframe {
     text-align: center;
     margin: 20px;
     margin-bottom: 25px; }
+  .gear-details p {
+    font-size: 15px;
+    font-weight: 300px;
+    font-family: 'Raleway';
+    line-height: 1.6; }
   .gear-details .tech-info {
-    width: 50%;
+    width: 45%;
     min-width: 300px; }
   .gear-details .detail {
     width: 100%;
@@ -540,7 +510,7 @@ iframe {
     .gear-details .detail a:hover {
       color: #333; }
   .gear-details .gear-links {
-    width: 50%;
+    width: 45%;
     min-width: 300px;
     padding: 40px;
     display: flex;
@@ -554,19 +524,13 @@ iframe {
     .gear-details .gear-links a {
       margin: 0 auto; }
     .gear-details .gear-links .buy {
-      align-self: center;
-      color: white;
-      border-radius: 40px;
       background-color: rgba(105, 177, 173, 0.8);
-      width: 200px;
-      padding-bottom: 10px;
-      padding-top: 10px;
+      padding: 10px 15px;
       box-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2);
       margin: 0 auto;
       transition: .5s;
       margin-top: 30px;
-      border-radius: 30px;
-      height: 50px; }
+      border-radius: 30px; }
       .gear-details .gear-links .buy h4 {
         display: inline-block;
         margin: 0;
@@ -574,7 +538,8 @@ iframe {
         font-size: 15px;
         font-weight: 400; }
     .gear-details .gear-links .buy:hover {
-      background-color: grey; }
+      background-color: grey;
+      color: white; }
 
 #kilian {
   background: url(../images/Square/kiliannat.jpg);
@@ -604,74 +569,6 @@ iframe {
 
 .send-to-route:hover {
   background-color: grey; }
-
-.underbox {
-  font-size: 18px;
-  text-transform: uppercase;
-  font-family: 'Lato'; }
-
-#gear-description {
-  padding: 0px 20% 70px 20%; }
-  #gear-description h2 {
-    font-size: 20px;
-    letter-spacing: 5px; }
-
-#gear-secondar-nav {
-  padding-bottom: 100px;
-  text-transform: uppercase; }
-  #gear-secondar-nav .motivation h4 {
-    padding-top: 40px;
-    font-size: 40px;
-    font-weight: 700;
-    text-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2);
-    letter-spacing: 10px;
-    text-transform: uppercase; }
-  #gear-secondar-nav .motivation .filter ul {
-    list-style: none;
-    padding: 0px; }
-    #gear-secondar-nav .motivation .filter ul #all {
-      background-color: #17bebb; }
-    #gear-secondar-nav .motivation .filter ul li {
-      color: white;
-      display: inline-block;
-      margin: 5px 15px;
-      background-color: #444;
-      padding: 3px 10px;
-      border-radius: 5px;
-      transition: .5s; }
-  #gear-secondar-nav .motivation .filter li:hover {
-    background-color: #69b1ad; }
-  #gear-secondar-nav .gear-box {
-    width: 300px;
-    margin: 10px;
-    text-align: left; }
-    #gear-secondar-nav .gear-box h3 {
-      font-size: 20px;
-      text-transform: uppercase;
-      line-height: 1.5; }
-    #gear-secondar-nav .gear-box .box {
-      margin: 0px;
-      text-align: center; }
-  #gear-secondar-nav #photo-new-mexico {
-    background: url(../images/New-Mexico.jpg);
-    background-size: contain; }
-  #gear-secondar-nav #photo-mickinney {
-    background: url(../images/Austin-sm.jpg);
-    background-size: contain; }
-
-.gear-box {
-  width: 300px;
-  margin: 10px;
-  text-align: left; }
-  .gear-box .box {
-    margin: 0px;
-    text-align: center; }
-
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
 
 button.slick-prev.slick-arrow {
   position: absolute;
@@ -716,93 +613,6 @@ slick-dots li.slick-active button:before {
 .slick-dotted.slick-slider {
   margin-bottom: 0px; }
 
-.main .filter {
-  text-transform: uppercase;
-  font-family: 'lato'; }
-  .main .filter ul {
-    list-style: none;
-    padding: 0px; }
-    .main .filter ul #all {
-      background-color: #69b1ad; }
-    .main .filter ul li {
-      color: white;
-      display: inline-block;
-      margin: 5px 15px;
-      background-color: #444;
-      padding: 3px 10px;
-      border-radius: 5px;
-      transition: .5s; }
-  .main .filter li:hover {
-    background-color: #69b1ad; }
-
-#route-selector {
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 60px; }
-
-#filters {
-  text-align: center;
-  padding-bottom: 3px;
-  border-bottom: 1px solid #eee;
-  margin-bottom: 1em; }
-  #filters a {
-    color: white;
-    display: inline-block;
-    margin: 5px 25px;
-    background-color: #444;
-    padding: 3px 10px;
-    border-radius: 5px;
-    transition: .5s; }
-  #filters a:hover {
-    background-color: #69b1ad; }
-  #filters a:focus {
-    background-color: #69b1ad;
-    text-decoration: none; }
-
-#route-content {
-  overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-left: 10%;
-  padding-right: 10%; }
-
-.route-item {
-  margin: 10px;
-  width: 300px;
-  text-align: left;
-  overflow: hidden; }
-  .route-item .underbox {
-    font-size: 20px;
-    text-transform: uppercase;
-    font-family: 'Lato'; }
-  .route-item a {
-    color: #333; }
-
-#route-mckinney {
-  background: url(../images/Square/Austin-sm.jpg);
-  background-size: contain; }
-
-#route-NM-4-days {
-  background: url(../images/Square/feet.jpg);
-  background-size: contain; }
-
-#route-sa-hotsprings {
-  background: url(../images/hotsprings.jpg);
-  background-size: contain; }
-
-#four-bush {
-  background: url(../images/Square/Square_0009_hamocks.jpg);
-  background-size: contain; }
-
-#slo-sb {
-  background: url(../images/Square/Square_0008_los-padres.jpg);
-  background-size: contain; }
-
-#pedernales {
-  background: url(../images/pedernales.png);
-  background-size: contain; }
-
 .container {
   width: 90%;
   margin: 0 auto;
@@ -818,10 +628,7 @@ input[type="radio"] {
   display: none; }
 
 label {
-  width: 23%;
   max-width: 180px;
-  float: left;
-  text-align: center;
   background-color: #555;
   border-radius: 3px;
   color: white;
@@ -950,11 +757,6 @@ input[type="radio"][id="mediaandnews"]:checked ~ .yourstories {
   opacity: 0;
   display: none; }
 
-.full-screen {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
-
 body {
   font-family: 'Raleway';
   color: #444;
@@ -993,9 +795,26 @@ h4 {
 .white {
   color: white; }
 
+.box {
+  font-family: 'Lato', sans-serif;
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+  overflow: hidden; }
+
+.fa {
+  font-size: 30px;
+  background-color: #555;
+  padding-top: 15px;
+  height: 45px;
+  width: 60px;
+  border-radius: 100%;
+  color: white;
+  text-align: center; }
+
 .background-grey-box {
   margin: 0;
-  padding: 125px 15%;
+  padding: 118px 15%;
   text-align: center;
   text-shadow: 1px 1px 1px rgba(33, 33, 33, 0.6);
   background-color: rgba(33, 33, 33, 0.8);
@@ -1012,42 +831,50 @@ h4 {
 .underbox {
   font-size: 18px;
   text-transform: uppercase;
+  font-family: 'Lato';
+  text-align: left; }
+
+.turquise {
+  color: #69B1AD; }
+
+.turquoise:hover {
+  color: #333; }
+
+.section-banner {
+  color: white;
+  position: relative;
+  top: -20px;
+  background-color: #6B0F1A;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px 10px;
   font-family: 'Lato'; }
 
-/* Header */
+.slow {
+  position: relative;
+  z-index: -1; }
+
 .footer {
   background-color: #333;
-  height: 150px;
   border-top: 1px solid #222222;
   margin: 0 auto;
-  padding-top: 75px; }
+  padding: 25px;
+  color: grey; }
   .footer ul {
-    list-style: none; }
-
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  text-align: center; }
-
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; }
-
-.parallax__layer--base {
-  transform: translateZ(0);
-  position: relative;
-  top: 700px; }
-
-.parallax__layer--back {
-  transform: translateZ(-1px); }
-
-.parallax__layer--back {
-  transform: translateZ(-1px) scale(2); }
+    list-style: none;
+    padding: 0px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.6; }
+    .footer ul a {
+      color: grey; }
+    .footer ul a:hover {
+      color: white; }
+  .footer .bottom-logo {
+    width: 70%;
+    max-width: 500px;
+    fill: grey; }
 
 @media (max-width: 830px) {
   .hero .caption h2 {
