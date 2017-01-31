@@ -4,9 +4,9 @@
 
 $(function(){
     $(document).on('scroll',function() {
-        if ($(this).scrollTop() > 1) {
+        if ($(this).scrollTop() > 10) {
             $('.second-nav').css('visibility','visible');
-            $('.second-nav').fadeIn('slow');
+            $('.second-nav').fadeIn('fast');
         }
         else {
             $('.second-nav').fadeOut('fast');
@@ -15,9 +15,9 @@ $(function(){
 });
 $(function(){
     $(document).on('touch',function() {
-        if ($(this).scrollTop() > 1) {
+        if ($(this).scrollTop() > 10) {
             $('.second-nav').css('visibility','visible');
-            $('.second-nav').fadeIn('slow');
+            $('.second-nav').fadeIn('fast');
         }
         else {
             $('.second-nav').fadeOut('fast');
@@ -62,9 +62,7 @@ if( $(window).width() > 900) {
 
 
 
-
-
-
+// Slides
 
 $(document).ready(function(){
 
