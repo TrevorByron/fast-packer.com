@@ -15,7 +15,7 @@ header {
     background: linear-gradient(rgba(022, 022, 022, .3), rgba(0, 0, 0, .0));
     font-family: 'Lato';
     font-weight: 400;
-    padding: 5px 10px 28px;
+    padding-bottom: 28px;
 
 
     img {
@@ -39,11 +39,12 @@ header {
             li {
                 text-align: center;
                 display: inline-block;
-                margin-left: 35px;
-                margin-right: 35px;
+                // margin-left: 35px;
+                // margin-right: 35px;
                 font-size: 15px;
                 color: white;
                 transition: 0.3s;
+                width: 200px;
 
             }
 

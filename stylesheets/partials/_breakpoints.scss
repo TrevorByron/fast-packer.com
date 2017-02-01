@@ -87,7 +87,7 @@
 
 // Header Breakpoints
 
-@media (max-width: 830px) {
+@media (max-width: 1020px) {
 
     #logo-small {
       display: block;
@@ -103,6 +103,7 @@ display: none;
           nav {
             ul {
               li{
+                width: inherit;
                 margin-left: 30px;
                 margin-right: 30px;
               }
