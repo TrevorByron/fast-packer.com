@@ -6,7 +6,7 @@ $(function(){
     $(document).on('scroll',function() {
         if ($(this).scrollTop() > 10) {
             $('.second-nav').css('visibility','visible');
-            $('.second-nav').fadeIn('fast');
+            $('.second-nav').fadeIn('slow');
         }
         else {
             $('.second-nav').fadeOut('fast');
