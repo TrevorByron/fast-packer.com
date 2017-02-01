@@ -162,7 +162,7 @@ header {
       font-size: 40px;
       letter-spacing: 10px; }
     .hero .caption h3 {
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 400; }
   .hero li {
     list-style: none;
@@ -384,6 +384,8 @@ header {
     text-indent: 50px;
     font-weight: 300;
     font-size: 17px; }
+  #highlights h3 {
+    text-transform: none; }
 
 .details {
   font-family: 'Lato';
