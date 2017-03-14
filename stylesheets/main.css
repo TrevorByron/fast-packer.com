@@ -1,4 +1,7 @@
 /* Imports */
+#top {
+  position: absolute; }
+
 .second-nav {
   background-color: #333;
   visibility: hidden; }
