@@ -5,7 +5,7 @@
 .second-nav {
   background-color: #333;
   visibility: hidden;
-  box-shadow: 0px 0.5px 10px rgba(33, 33, 33, 0.7); }
+  box-shadow: 0px -10px 20px 20px rgba(0, 0, 0, 0.2); }
 
 header {
   text-shadow: 1px 1px 1px rgba(33, 33, 33, 0.4);
