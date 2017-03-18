@@ -1,7 +1,7 @@
 
 
 // secondary nav
-
+$(document).ready(function(){
 $(function(){
     $(document).on('scroll',function() {
         if ($(this).scrollTop() > ($(window).height())) {
@@ -60,7 +60,7 @@ if( $(window).width() > 900) {
 
     $('#welcome, #featured-route, #featured-review, #featured-story ').height($(window).height());
 
-
+});
 
 // Slides
 
