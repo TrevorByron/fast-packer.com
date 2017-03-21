@@ -469,6 +469,11 @@ iframe {
   height: 500px;
   margin-bottom: 60px; }
 
+#disqus_thread {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto; }
+
 #gear-pad {
   background: url(../images/gear/Square-gear/pad.jpg);
   background-size: contain; }
