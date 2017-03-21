@@ -469,10 +469,18 @@ iframe {
   height: 500px;
   margin-bottom: 60px; }
 
+#layout {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto; }
+
 #disqus_thread {
   max-width: 1000px;
   width: 90%;
   margin: 0 auto; }
+
+.disqus-footer__wrapper {
+  display: none; }
 
 #gear-pad {
   background: url(../images/gear/Square-gear/pad.jpg);

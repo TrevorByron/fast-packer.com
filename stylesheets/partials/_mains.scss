@@ -245,11 +245,19 @@ iframe {
 }
 
 // this is the embeded comments
+
+#layout {
+max-width: 1000px;
+width: 90%;
+margin: 0 auto;}
 #disqus_thread {
 max-width: 1000px;
 width: 90%;
 margin: 0 auto;
 
+}
+.disqus-footer__wrapper {
+  display: none;
 }
 
 
